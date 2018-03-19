@@ -1,0 +1,12 @@
+{application,erly_room,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{erly_room_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[erly_room,erly_room_app,erly_room_manage,
+                        erly_room_sup,room_sup]},
+              {maintainers,[]},
+              {licenses,[]},
+              {links,[]}]}.
