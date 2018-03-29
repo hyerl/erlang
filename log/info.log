@@ -1,0 +1,793 @@
+2018-03-05 15:30:01.800 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:30:01.801 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:30:08.291 [info] <0.326.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.329.0>,1}]}
+2018-03-05 15:30:47.999 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:30:48.001 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:30:53.672 [info] <0.326.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.329.0>,1}]}
+2018-03-05 15:31:27.651 [info] <0.326.0>@erly_room_manage:select_exist_room:184 RoomStateList [{10000,<0.329.0>,1}]
+2018-03-05 15:31:27.652 [info] <0.326.0>@erly_room_manage:select_exist_room:185 MatchRoomList [{10000,<0.329.0>,1}]
+2018-03-05 15:31:27.652 [info] <0.326.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.329.0>,2}]}
+2018-03-05 15:32:06.127 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:32:06.129 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:32:11.636 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 15:32:11.642 [info] <0.347.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:32:32.644 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235152643" join TimeOut 1520235307, Event 2
+2018-03-05 15:32:32.644 [info] <0.347.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235152643"
+2018-03-05 15:32:34.644 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235154644" join TimeOut 1520235318, Event 6
+2018-03-05 15:32:34.644 [info] <0.347.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235154644"
+2018-03-05 15:32:51.645 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235171645" join TimeOut 1520235367, Event 5
+2018-03-05 15:32:51.645 [info] <0.347.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235171645"
+2018-03-05 15:33:20.098 [info] <0.344.0>@erly_room_manage:handle_call:83 RoomStateList [{room_state,10000,<0.347.0>,1}]
+2018-03-05 15:33:20.099 [info] <0.344.0>@erly_room_manage:handle_call:97 NewRoomStateList [{room_state,10000,<0.347.0>,0}]
+2018-03-05 15:33:20.099 [info] <0.344.0>@erly_room_manage:handle_call:99 erly_room_manage NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:33:20.099 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:33:43.100 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235223100" join TimeOut 1520235430, Event 4
+2018-03-05 15:34:44.406 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:34:44.408 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:34:49.684 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 15:34:49.690 [info] <0.347.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:35:08.691 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235308691" join TimeOut 1520235403, Event 4
+2018-03-05 15:35:08.691 [info] <0.347.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235308691"
+2018-03-05 15:35:12.691 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235312691" join TimeOut 1520235517, Event 3
+2018-03-05 15:35:12.691 [info] <0.347.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235312691"
+2018-03-05 15:35:29.693 [info] <0.347.0>@erly_room:handle_robot:248 RobotID "robot_1520235329692" join TimeOut 1520235545, Event 5
+2018-03-05 15:35:29.693 [info] <0.347.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235329692"
+2018-03-05 15:35:50.591 [info] <0.344.0>@erly_room_manage:handle_call:83 RoomStateList [{room_state,10000,<0.347.0>,1}]
+2018-03-05 15:35:50.591 [info] <0.344.0>@erly_room_manage:handle_call:97 NewRoomStateList [{room_state,10000,<0.347.0>,0}]
+2018-03-05 15:35:50.591 [info] <0.344.0>@erly_room_manage:handle_call:99 erly_room_manage NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:35:50.591 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:38:03.655 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:38:03.657 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:38:07.638 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 15:38:07.646 [info] <0.347.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:38:25.648 [info] <0.347.0>@erly_room:handle_robot:249 RobotID "robot_1520235505648" join TimeOut 1520235585, Event 6
+2018-03-05 15:38:25.648 [info] <0.347.0>@erly_room:broadcast:234 call user = "001" a player join this room name = "robot_1520235505648"
+2018-03-05 15:38:29.649 [info] <0.347.0>@erly_room:handle_robot:249 RobotID "robot_1520235509649" join TimeOut 1520235793, Event 4
+2018-03-05 15:38:29.650 [info] <0.347.0>@erly_room:broadcast:234 call user = "001" a player join this room name = "robot_1520235509649"
+2018-03-05 15:38:44.650 [info] <0.347.0>@erly_room:handle_robot:249 RobotID "robot_1520235524650" join TimeOut 1520235658, Event 1
+2018-03-05 15:38:44.650 [info] <0.347.0>@erly_room:broadcast:234 call user = "001" a player join this room name = "robot_1520235524650"
+2018-03-05 15:39:09.452 [info] <0.344.0>@erly_room_manage:handle_call:83 RoomStateList [{room_state,10000,<0.347.0>,1}]
+2018-03-05 15:39:09.452 [info] <0.344.0>@erly_room_manage:handle_call:97 NewRoomStateList [{room_state,10000,<0.347.0>,0}]
+2018-03-05 15:39:09.452 [info] <0.344.0>@erly_room_manage:handle_call:99 erly_room_manage NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:39:09.452 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:41:40.352 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:41:40.354 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:41:45.014 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 15:41:45.020 [info] <0.347.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:42:08.023 [info] <0.347.0>@erly_room:handle_robot:250 RobotID "robot_1520235728023" join TimeOut 1520235980, Event 6
+2018-03-05 15:42:08.023 [info] <0.347.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235728023"
+2018-03-05 15:42:08.024 [info] <0.347.0>@erly_room:handle_robot:250 RobotID "robot_1520235728023" join TimeOut 1520235789, Event 5
+2018-03-05 15:42:08.024 [info] <0.347.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235728023"
+2018-03-05 15:42:27.026 [info] <0.347.0>@erly_room:handle_robot:250 RobotID "robot_1520235747026" join TimeOut 1520235888, Event 5
+2018-03-05 15:42:27.026 [info] <0.347.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235747026"
+2018-03-05 15:42:33.884 [info] <0.344.0>@erly_room_manage:handle_call:83 RoomStateList [{room_state,10000,<0.347.0>,1}]
+2018-03-05 15:42:33.884 [info] <0.344.0>@erly_room_manage:handle_call:97 NewRoomStateList [{room_state,10000,<0.347.0>,0}]
+2018-03-05 15:42:33.884 [info] <0.344.0>@erly_room_manage:handle_call:99 erly_room_manage NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:42:33.884 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,0}]}
+2018-03-05 15:44:01.399 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:44:01.400 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:44:11.065 [info] <0.326.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.329.0>,1}]}
+2018-03-05 15:44:11.070 [info] <0.329.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:44:14.250 [info] <0.326.0>@erly_room_manage:select_exist_room:184 RoomStateList [{10000,<0.329.0>,1}]
+2018-03-05 15:44:14.250 [info] <0.326.0>@erly_room_manage:select_exist_room:185 MatchRoomList [{10000,<0.329.0>,1}]
+2018-03-05 15:44:14.250 [info] <0.329.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001","001"],[]}
+2018-03-05 15:44:14.250 [info] <0.326.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.329.0>,2}]}
+2018-03-05 15:44:29.079 [info] <0.329.0>@erly_room:handle_robot:250 RobotID "robot_1520235869079" join TimeOut 1520235972, Event 3
+2018-03-05 15:44:29.079 [info] <0.329.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235869079"
+2018-03-05 15:44:29.079 [info] <0.329.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235869079"
+2018-03-05 15:44:30.073 [info] <0.329.0>@erly_room:handle_robot:250 RobotID "robot_1520235870072" join TimeOut 1520236111, Event 5
+2018-03-05 15:44:30.073 [info] <0.329.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235870072"
+2018-03-05 15:44:30.073 [info] <0.329.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235870072"
+2018-03-05 15:44:32.251 [info] <0.329.0>@erly_room:handle_robot:250 RobotID "robot_1520235872251" join TimeOut 1520236013, Event 6
+2018-03-05 15:44:32.252 [info] <0.329.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235872251"
+2018-03-05 15:44:32.252 [info] <0.329.0>@erly_room:broadcast:235 call user = "001" a player join this room name = "robot_1520235872251"
+2018-03-05 15:45:53.913 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:45:53.915 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:45:58.063 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 15:45:58.069 [info] <0.347.0>@erly_room:handle_info:113 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:46:02.634 [info] <0.344.0>@erly_room_manage:select_exist_room:184 RoomStateList [{10000,<0.347.0>,1}]
+2018-03-05 15:46:02.634 [info] <0.344.0>@erly_room_manage:select_exist_room:185 MatchRoomList [{10000,<0.347.0>,1}]
+2018-03-05 15:46:02.635 [info] <0.347.0>@erly_room:handle_info:113 erly_room 10000 NewState {room_state,100,10000,["001","001"],[]}
+2018-03-05 15:46:02.635 [info] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,2}]}
+2018-03-05 15:46:17.071 [info] <0.347.0>@erly_room:handle_robot:252 RobotID "robot_1520235977071" join TimeOut 1520236076, Event 5
+2018-03-05 15:46:17.071 [info] <0.347.0>@erly_room:broadcast:237 call user = "001" a player join this room name = "robot_1520235977071"
+2018-03-05 15:46:17.071 [info] <0.347.0>@erly_room:broadcast:237 call user = "001" a player join this room name = "robot_1520235977071"
+2018-03-05 15:46:22.072 [info] <0.347.0>@erly_room:handle_robot:252 RobotID "robot_1520235982071" join TimeOut 1520236194, Event 4
+2018-03-05 15:46:22.072 [info] <0.347.0>@erly_room:broadcast:237 call user = "001" a player join this room name = "robot_1520235982071"
+2018-03-05 15:46:22.072 [info] <0.347.0>@erly_room:broadcast:237 call user = "001" a player join this room name = "robot_1520235982071"
+2018-03-05 15:46:22.635 [info] <0.347.0>@erly_room:handle_robot:252 RobotID "robot_1520235982635" join TimeOut 1520236151, Event 4
+2018-03-05 15:46:22.635 [info] <0.347.0>@erly_room:broadcast:237 call user = "001" a player join this room name = "robot_1520235982635"
+2018-03-05 15:46:22.635 [info] <0.347.0>@erly_room:broadcast:237 call user = "001" a player join this room name = "robot_1520235982635"
+2018-03-05 15:47:56.204 [info] <0.347.0>@erly_room:push_single_user:228 push User "001" luck user "robot_1520235977071" get slotresult 5
+2018-03-05 15:47:56.204 [info] <0.347.0>@erly_room:push_single_user:228 push User "001" luck user "robot_1520235977071" get slotresult 5
+2018-03-05 15:48:14.777 [info] <0.31.0> Application lager started on node nonode@nohost
+2018-03-05 15:48:14.779 [info] <0.31.0> Application erly_room started on node nonode@nohost
+2018-03-05 15:48:30.990 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:48:30.992 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:52:10.253 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:52:10.255 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:53:42.987 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:53:42.989 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:54:00.552 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:54:00.554 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 15:54:52.604 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 15:54:52.606 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 16:02:37.861 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 16:02:37.862 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 17:43:14.344 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 17:43:14.345 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 17:46:59.206 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 17:46:59.208 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 17:52:18.474 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 17:52:18.478 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-05 17:57:49.899 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-05 17:57:49.900 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 09:35:49.377 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 09:35:49.379 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 09:49:18.270 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 09:49:18.272 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 09:59:27.961 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 09:59:27.962 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 10:00:27.083 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 10:00:27.085 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 10:02:48.912 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 10:02:48.916 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 10:25:12.950 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 10:25:12.953 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 17:49:48.760 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 17:49:48.761 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 17:52:55.213 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 17:52:55.214 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-06 18:21:36.183 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-06 18:21:36.185 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-07 18:23:57.731 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-07 18:23:57.732 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:14:12.975 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:14:12.976 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:15:43.271 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:15:43.273 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:19:52.519 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:19:52.520 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:22:37.035 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:22:37.036 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:24:18.206 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:24:18.207 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:25:33.669 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:25:33.670 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:31:20.463 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:31:20.464 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:33:36.323 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:33:36.325 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-08 17:36:06.921 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-08 17:36:06.922 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 10:37:55.787 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 10:37:55.788 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 10:40:30.899 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 10:40:30.900 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 10:56:13.060 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 10:56:13.061 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 10:56:53.489 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 10:56:53.490 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 11:03:34.547 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 11:03:34.548 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 11:21:38.004 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 11:21:38.005 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-09 11:24:10.786 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-09 11:24:10.787 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 13:08:26.555 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 13:08:26.556 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 13:22:37.811 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 13:22:37.812 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 13:24:34.396 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 13:24:34.397 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 13:28:54.787 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 13:28:54.788 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 13:50:57.365 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 13:50:57.366 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 14:17:51.584 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 14:17:51.585 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 17:23:02.846 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 17:23:02.847 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 17:23:21.913 [info] <0.362.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-12 17:23:21.917 [info] <0.365.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["001"],[]}
+2018-03-12 17:24:12.919 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-12 17:24:12.920 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-12 17:24:25.715 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-12 17:24:25.719 [info] <0.329.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["001"],[]}
+2018-03-12 17:24:27.408 [info] <0.329.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["001","002"],[]}
+2018-03-12 17:24:27.408 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-13 16:32:49.236 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-13 16:32:49.237 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-19 17:25:43.636 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-19 17:25:43.637 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-19 17:26:09.767 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-19 17:26:09.778 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["001"],[]}
+2018-03-19 17:29:13.042 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-19 17:29:13.043 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 14:43:14.062 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 14:43:14.063 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 14:43:21.002 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 14:43:21.003 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 14:43:56.151 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:43:56.162 [info] <0.331.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 14:44:38.733 [info] <0.331.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:44:38.733 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:45:07.716 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:45:07.761 [info] <0.331.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:45:07.762 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:46:22.889 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 14:46:22.890 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 14:46:55.207 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:46:55.212 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 14:47:10.169 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:47:10.170 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:47:34.817 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:47:34.862 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:47:34.863 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:48:15.997 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 14:48:15.998 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 14:48:29.475 [info] <0.332.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:48:29.477 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 14:48:37.144 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:48:37.144 [info] <0.332.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:48:45.260 [info] <0.332.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:48:45.295 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:48:45.295 [info] <0.332.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:49:49.962 [info] <0.332.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:50:17.332 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:50:17.332 [info] <0.332.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:50:53.842 [info] <0.332.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:51:09.019 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:51:09.019 [info] <0.332.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:51:46.276 [info] <0.335.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521528706276" join TimeOut 1521528807, Event 1
+2018-03-20 14:52:13.470 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 14:52:13.471 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 14:53:02.933 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:53:02.936 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 14:53:07.803 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:53:07.803 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:53:58.516 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 14:53:58.569 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 14:53:58.569 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 14:56:22.938 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521528982938" join TimeOut 1521529190, Event 1
+2018-03-20 14:56:24.804 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521528984804" join TimeOut 1521529180, Event 3
+2018-03-20 14:57:10.542 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521529030542" join TimeOut 1521529145, Event 6
+2018-03-20 14:59:05.386 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521529030542" get slotresult 6
+2018-03-20 14:59:05.402 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521529030542" get slotresult 6
+2018-03-20 14:59:40.431 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521528984804" get slotresult 3
+2018-03-20 14:59:40.444 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521528984804" get slotresult 3
+2018-03-20 14:59:50.442 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521528982938" get slotresult 1
+2018-03-20 14:59:50.459 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521528982938" get slotresult 1
+2018-03-20 15:01:34.555 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521529030542" get slotresult 4
+2018-03-20 15:01:34.569 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521529030542" get slotresult 4
+2018-03-20 15:02:18.620 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521528984804" get slotresult 3
+2018-03-20 15:02:18.634 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521528984804" get slotresult 3
+2018-03-20 15:02:41.641 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521529030542" get slotresult 5
+2018-03-20 15:02:41.659 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521529030542" get slotresult 5
+2018-03-20 15:04:39.398 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 15:04:39.399 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 15:04:49.961 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:04:49.966 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 15:04:53.949 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 15:04:53.949 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:05:00.590 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:05:00.649 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 15:05:00.649 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:05:48.478 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 15:05:48.478 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 15:05:56.435 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:05:56.439 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 15:06:01.027 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 15:06:01.027 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:06:05.455 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:06:05.484 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1},{room_state,10001,1}]}
+2018-03-20 15:06:05.484 [info] <0.350.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2"],[]}
+2018-03-20 15:43:43.539 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 15:43:43.541 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 15:44:14.121 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:44:14.129 [info] <0.349.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 15:44:18.530 [info] <0.349.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 15:44:18.530 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:44:23.019 [info] <0.349.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2","3"],[]}
+2018-03-20 15:44:23.019 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,3}]}
+2018-03-20 15:45:20.688 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:45:20.716 [info] <0.353.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2"],[]}
+2018-03-20 15:45:20.716 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2},{room_state,10001,1}]}
+2018-03-20 15:45:45.504 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1},{room_state,10001,1}]}
+2018-03-20 15:45:45.546 [info] <0.353.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2","3"],[]}
+2018-03-20 15:45:45.546 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,2}]}
+2018-03-20 15:46:16.594 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10001,1}]}
+2018-03-20 15:46:16.627 [info] <0.480.0>@erly_room_worker:handle_cast:114 erly_room 10002 NewState {room_state,10,10002,["3"],[]}
+2018-03-20 15:46:16.627 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,1},{room_state,10002,1}]}
+2018-03-20 15:47:29.130 [info] <0.349.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532049130" join TimeOut 1521532161, Event 1
+2018-03-20 15:47:50.019 [info] <0.349.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532070019" join TimeOut 1521532251, Event 3
+2018-03-20 15:48:11.531 [info] <0.349.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532091531" join TimeOut 1521532269, Event 3
+2018-03-20 15:48:38.718 [info] <0.353.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532118718" join TimeOut 1521532348, Event 3
+2018-03-20 15:49:21.533 [info] <0.349.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521532049130" get slotresult 1
+2018-03-20 15:49:27.547 [info] <0.353.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532167547" join TimeOut 1521532459, Event 6
+2018-03-20 15:50:04.617 [info] <0.353.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532204617" join TimeOut 1521532284, Event 2
+2018-03-20 15:50:14.629 [info] <0.480.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532214629" join TimeOut 1521532390, Event 1
+2018-03-20 15:50:51.646 [info] <0.349.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521532070019" get slotresult 3
+2018-03-20 15:51:09.671 [info] <0.349.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521532091531" get slotresult 3
+2018-03-20 15:51:24.130 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:251 push User "2" luck user "robot_1521532204617" get slotresult 2
+2018-03-20 15:51:47.967 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 15:51:47.968 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 15:52:02.760 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 15:52:02.761 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 15:52:32.219 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:52:32.224 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 15:52:35.311 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 15:52:35.311 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:52:41.104 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2","3"],[]}
+2018-03-20 15:52:41.104 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,3}]}
+2018-03-20 15:53:23.365 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:53:23.399 [info] <0.334.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2"],[]}
+2018-03-20 15:53:23.399 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2},{room_state,10001,1}]}
+2018-03-20 15:53:33.523 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1},{room_state,10001,1}]}
+2018-03-20 15:53:33.579 [info] <0.334.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2","3"],[]}
+2018-03-20 15:53:33.579 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,2}]}
+2018-03-20 15:53:55.784 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10001,1}]}
+2018-03-20 15:53:55.817 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,1},{room_state,10002,1}]}
+2018-03-20 15:53:55.817 [info] <0.337.0>@erly_room_worker:handle_cast:114 erly_room 10002 NewState {room_state,10,10002,["2"],[]}
+2018-03-20 15:55:33.226 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532533226" join TimeOut 1521532751, Event 1
+2018-03-20 15:55:38.312 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532538312" join TimeOut 1521532727, Event 2
+2018-03-20 15:55:54.106 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532554106" join TimeOut 1521532677, Event 6
+2018-03-20 15:56:26.415 [info] <0.334.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532586415" join TimeOut 1521532827, Event 4
+2018-03-20 15:57:16.580 [info] <0.334.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532636580" join TimeOut 1521532821, Event 4
+2018-03-20 15:57:47.818 [info] <0.337.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532667818" join TimeOut 1521532935, Event 2
+2018-03-20 15:57:49.804 [info] <0.334.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532669804" join TimeOut 1521532896, Event 3
+2018-03-20 15:57:57.622 [info] <0.330.0>@erly_room_worker:push_reward_to_single_user:251 push User "1" luck user "robot_1521532554106" get slotresult 6
+2018-03-20 15:58:42.414 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 15:58:42.414 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 15:58:53.051 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 15:58:53.057 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 15:59:03.691 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 15:59:03.691 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 15:59:07.814 [info] <0.330.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2","3"],[]}
+2018-03-20 15:59:07.814 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,3}]}
+2018-03-20 16:00:02.708 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 16:00:02.741 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2"],[]}
+2018-03-20 16:00:02.741 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2},{room_state,10001,1}]}
+2018-03-20 16:00:24.714 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1},{room_state,10001,1}]}
+2018-03-20 16:00:24.762 [info] <0.335.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2","3"],[]}
+2018-03-20 16:00:24.762 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,2}]}
+2018-03-20 16:00:57.273 [info] <0.326.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10001,1}]}
+2018-03-20 16:00:57.306 [info] <0.344.0>@erly_room_worker:handle_cast:114 erly_room 10002 NewState {room_state,10,10002,["3"],[]}
+2018-03-20 16:00:57.306 [info] <0.326.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,1},{room_state,10002,1}]}
+2018-03-20 16:02:09.059 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532929059" join TimeOut 1521533055, Event 5
+2018-03-20 16:02:22.694 [info] <0.330.0>@erly_room_worker:handle_robot:297 RobotID "robot_1521532942694" join TimeOut 1521533193, Event 6
+2018-03-20 16:02:51.314 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-20 16:02:51.315 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-20 16:03:10.182 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-20 16:03:10.187 [info] <0.348.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-20 16:03:12.770 [info] <0.348.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2"],[]}
+2018-03-20 16:03:12.770 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 16:03:15.678 [info] <0.348.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","2","3"],[]}
+2018-03-20 16:03:15.678 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,3}]}
+2018-03-20 16:03:38.159 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,2}]}
+2018-03-20 16:03:38.194 [info] <0.353.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2"],[]}
+2018-03-20 16:03:38.194 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2},{room_state,10001,1}]}
+2018-03-20 16:03:40.457 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,1},{room_state,10001,1}]}
+2018-03-20 16:03:40.497 [info] <0.353.0>@erly_room_worker:handle_cast:114 erly_room 10001 NewState {room_state,10,10001,["2","3"],[]}
+2018-03-20 16:03:40.497 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10001,2},{room_state,10000,1}]}
+2018-03-20 16:04:13.118 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10001,1},{room_state,10000,1}]}
+2018-03-20 16:04:13.169 [info] <0.348.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1","3"],[]}
+2018-03-20 16:04:13.170 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,2},{room_state,10001,1}]}
+2018-03-21 10:11:20.762 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 10:11:20.762 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 10:11:55.602 [info] <0.328.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-21 10:11:55.610 [info] <0.332.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["1"],[]}
+2018-03-21 10:13:35.209 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 10:13:35.210 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 10:13:57.344 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-21 10:13:57.346 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["01"],[]}
+2018-03-21 14:12:14.567 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 14:12:14.571 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 14:25:41.394 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 14:25:41.396 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 14:27:18.082 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 14:27:18.083 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 17:50:45.515 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 17:50:45.516 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 17:51:22.812 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-21 17:51:22.840 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["01"],[]}
+2018-03-21 17:54:24.840 [info] <0.347.0>@erly_room_worker:handle_robot:299 RobotID "robot_1521626064840" join TimeOut 1521626347, Event 6
+2018-03-21 17:57:34.852 [info] <0.347.0>@erly_room_worker:handle_robot:299 RobotID "robot_1521626254852" join TimeOut 1521626332, Event 1
+2018-03-21 17:58:52.757 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:253 push User "01" luck user "robot_1521626254852" get slotresult 1
+2018-03-21 17:59:07.832 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:253 push User "01" luck user "robot_1521626064840" get slotresult 6
+2018-03-21 18:00:35.580 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-21 18:00:35.581 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-21 18:01:04.140 [info] <0.344.0>@erly_room_manage:handle_cast:119 NewState {state,10,[{room_state,10000,1}]}
+2018-03-21 18:01:04.142 [info] <0.347.0>@erly_room_worker:handle_cast:114 erly_room 10000 NewState {room_state,10,10000,["01"],[]}
+2018-03-21 18:04:40.144 [info] <0.347.0>@erly_room_worker:handle_robot:299 RobotID "robot_1521626680144" join TimeOut 1521626961, Event 2
+2018-03-21 18:08:13.189 [info] <0.347.0>@erly_room_worker:handle_robot:299 RobotID "robot_1521626893189" join TimeOut 1521627122, Event 3
+2018-03-21 18:09:03.362 [info] <0.344.0>@erly_room_manage:handle_cast:113 NewState {state,10,[{room_state,10000,0}]}
+2018-03-22 10:57:27.406 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-22 10:57:27.408 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:04:51.178 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:04:51.179 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:04:55.326 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:04:55.327 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:06:20.621 [info] <0.329.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",8}],[]}
+2018-03-23 14:06:20.621 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 14:06:57.630 [info] <0.329.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",8},{user_list,456,"bb",9}],[]}
+2018-03-23 14:06:57.630 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 14:07:04.137 [info] <0.329.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",8},{user_list,456,"bb",9},{user_list,789,"bb",3}],[]}
+2018-03-23 14:07:04.137 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 14:07:32.425 [info] <0.326.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 14:12:20.335 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:12:20.336 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:12:33.427 [info] <0.365.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",12}],[]}
+2018-03-23 14:12:33.427 [info] <0.362.0>@erly_room_manage:handle_cast:118 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 14:12:46.689 [info] <0.365.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",12},{user_list,456,"bb",3}],[]}
+2018-03-23 14:12:46.689 [info] <0.362.0>@erly_room_manage:handle_cast:118 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 14:12:54.329 [info] <0.365.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",12},{user_list,456,"bb",3},{user_list,789,"cc",10}],[]}
+2018-03-23 14:12:54.329 [info] <0.362.0>@erly_room_manage:handle_cast:118 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 14:13:41.014 [info] <0.362.0>@erly_room_manage:handle_cast:112 manage State {state,10,[ok]}
+2018-03-23 14:17:58.665 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:17:58.666 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:18:16.019 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:18:16.020 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:18:34.004 [info] <0.329.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",5}],[]}
+2018-03-23 14:18:34.004 [info] <0.326.0>@erly_room_manage:handle_cast:118 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 14:19:01.151 [info] <0.329.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",5},{user_list,456,"bb",6}],[]}
+2018-03-23 14:19:01.151 [info] <0.326.0>@erly_room_manage:handle_cast:118 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 14:19:10.003 [info] <0.329.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,123,"aa",5},{user_list,456,"bb",6},{user_list,789,"cc",1}],[]}
+2018-03-23 14:19:10.003 [info] <0.326.0>@erly_room_manage:handle_cast:118 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 14:19:34.611 [info] <0.326.0>@erly_room_manage:handle_cast:112 manage State {state,10,[ok]}
+2018-03-23 14:21:22.693 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:21:22.694 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:21:35.237 [info] <0.347.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",11}],[]}
+2018-03-23 14:21:35.237 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 14:21:58.607 [info] <0.347.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",11},{user_list,222,"bb",7}],[]}
+2018-03-23 14:21:58.607 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 14:22:04.584 [info] <0.347.0>@erly_room_worker:handle_cast:121 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",11},{user_list,222,"bb",7},{user_list,333,"cc",12}],[]}
+2018-03-23 14:22:04.584 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 14:22:34.895 [info] <0.344.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 14:40:07.232 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:40:07.233 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:41:16.688 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:41:16.688 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 14:41:49.637 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 14:41:49.638 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:02:14.142 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:02:14.144 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:03:39.796 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:03:39.798 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:04:00.513 [info] <0.381.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",5}],[]}
+2018-03-23 16:04:00.513 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:04:07.359 [info] <0.381.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",5},{user_list,222,"bb",11}],[]}
+2018-03-23 16:04:07.359 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 16:04:13.868 [info] <0.381.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",5},{user_list,222,"bb",11},{user_list,333,"cc",8}],[]}
+2018-03-23 16:04:13.868 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 16:05:53.112 [info] <0.378.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 16:05:56.438 [info] <0.378.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:06:13.333 [info] <0.381.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521792373333" join TimeOut 1521792474, Event 1
+2018-03-23 16:08:39.230 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:08:39.232 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:08:50.925 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",9}],[]}
+2018-03-23 16:08:50.925 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:09:08.941 [info] <0.347.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521792548941" join TimeOut 1521792735, Event 3
+2018-03-23 16:10:48.685 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:10:48.686 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:11:12.053 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3}],[]}
+2018-03-23 16:11:12.053 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:11:31.556 [info] <0.347.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521792691556" join TimeOut 1521792875, Event 5
+2018-03-23 16:11:51.811 [info] <0.347.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521792711811" join TimeOut 1521792845, Event 4
+2018-03-23 16:12:13.992 [info] <0.347.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521792733992" join TimeOut 1521792947, Event 2
+2018-03-23 16:13:24.511 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3},{user_list,222,"bb",6}],[{robot_list,"robot_1521792691556","lsq01u1f60auu",2,1521792875,5},{robot_list,"robot_1521792711811","w7ur1gobzf",9,1521792845,4},{robot_list,"robot_1521792733992","n2gmyzfme09pt6g",9,1521792947,2}]}
+2018-03-23 16:13:24.511 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 16:13:25.539 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3},{user_list,222,"bb",6},{user_list,333,"cc",2}],[{robot_list,"robot_1521792691556","lsq01u1f60auu",2,1521792875,5},{robot_list,"robot_1521792711811","w7ur1gobzf",9,1521792845,4},{robot_list,"robot_1521792733992","n2gmyzfme09pt6g",9,1521792947,2}]}
+2018-03-23 16:13:25.539 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 16:14:05.393 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521792711811" get slotresult 4
+2018-03-23 16:14:05.404 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521792711811" get slotresult 4
+2018-03-23 16:14:05.414 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "robot_1521792711811" get slotresult 4
+2018-03-23 16:14:35.451 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521792691556" get slotresult 5
+2018-03-23 16:14:35.464 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521792691556" get slotresult 5
+2018-03-23 16:14:35.477 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "robot_1521792691556" get slotresult 5
+2018-03-23 16:15:05.511 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521792711811" get slotresult 1
+2018-03-23 16:15:05.525 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521792711811" get slotresult 1
+2018-03-23 16:15:05.540 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "robot_1521792711811" get slotresult 1
+2018-03-23 16:15:47.604 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521792733992" get slotresult 2
+2018-03-23 16:15:47.619 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521792733992" get slotresult 2
+2018-03-23 16:15:47.633 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "robot_1521792733992" get slotresult 2
+2018-03-23 16:15:56.623 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521792691556" get slotresult 6
+2018-03-23 16:15:56.635 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521792691556" get slotresult 6
+2018-03-23 16:15:56.641 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "robot_1521792691556" get slotresult 6
+2018-03-23 16:17:12.056 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3},{user_list,222,"bb",6},{user_list,333,"cc",2},{user_list,444,"dd",8}],[{robot_list,"robot_1521792691556",undefined,undefined,1521793150,6},{robot_list,"robot_1521792711811",undefined,undefined,1521793137,1},{robot_list,"robot_1521792733992",undefined,undefined,1521793161,3}]}
+2018-03-23 16:17:12.056 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,4}]}
+2018-03-23 16:19:26.674 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3},{user_list,222,"bb",6},{user_list,333,"cc",2},{user_list,444,"dd",8},{user_list,555,"ff",1}],[]}
+2018-03-23 16:19:26.674 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,5}]}
+2018-03-23 16:19:39.061 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3},{user_list,222,"bb",6},{user_list,333,"cc",2},{user_list,444,"dd",8},{user_list,555,"ff",1},{user_list,666,"gg",10}],[]}
+2018-03-23 16:19:39.061 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,6}]}
+2018-03-23 16:19:46.984 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aa",3},{user_list,222,"bb",6},{user_list,333,"cc",2},{user_list,444,"dd",8},{user_list,555,"ff",1},{user_list,666,"gg",10},{user_list,777,"hh",9}],[]}
+2018-03-23 16:19:46.984 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,7}]}
+2018-03-23 16:20:01.246 [info] <0.372.0>@erly_room_worker:handle_cast:123 erly_room 10001 State {room_state,10,10001,[{user_list,888,"ii",10}],[]}
+2018-03-23 16:20:01.246 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,7},{room_state,10001,1}]}
+2018-03-23 16:20:21.368 [info] <0.372.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521793221367" join TimeOut 1521793450, Event 5
+2018-03-23 16:20:43.145 [info] <0.372.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521793243145" join TimeOut 1521793535, Event 5
+2018-03-23 16:21:04.393 [info] <0.372.0>@erly_room_worker:handle_robot:323 RobotID "robot_1521793264393" join TimeOut 1521793482, Event 4
+2018-03-23 16:27:31.044 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:27:31.045 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:28:51.599 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:28:51.600 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:32:09.611 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:32:09.612 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:32:39.931 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",6}],[]}
+2018-03-23 16:32:39.931 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:32:45.644 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",6},{user_list,222,"bbbbbbbb",9}],[]}
+2018-03-23 16:32:45.644 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 16:32:47.419 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",6},{user_list,222,"bbbbbbbb",9},{user_list,333,"cccccccc",2}],[]}
+2018-03-23 16:32:47.420 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 16:34:25.125 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:34:25.127 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:34:38.310 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",1}],[]}
+2018-03-23 16:34:38.311 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:34:56.528 [info] <0.347.0>@erly_room_worker:handle_robot:326 RobotID "robot_1521794096528" join TimeOut 1521794226, Event 5
+2018-03-23 16:35:19.171 [info] <0.347.0>@erly_room_worker:handle_robot:326 RobotID "robot_1521794119171" join TimeOut 1521794231, Event 3
+2018-03-23 16:35:44.043 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:35:44.044 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-23 16:35:59.310 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",5}],[]}
+2018-03-23 16:35:59.310 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-23 16:36:04.406 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",5},{user_list,222,"bbbbbbbb",11}],[]}
+2018-03-23 16:36:04.406 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 16:36:05.167 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",5},{user_list,222,"bbbbbbbb",11},{user_list,333,"cccccccc",12}],[]}
+2018-03-23 16:36:05.168 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-23 16:36:24.902 [info] <0.326.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,2}]}
+2018-03-23 16:36:24.934 [info] <0.329.0>@erly_room_worker:handle_robot:326 RobotID "robot_1521794184934" join TimeOut 1521794330, Event 6
+2018-03-23 16:36:25.818 [info] <0.329.0>@erly_room_worker:handle_robot:326 RobotID "robot_1521794185818" join TimeOut 1521794436, Event 4
+2018-03-23 16:36:45.932 [info] <0.329.0>@erly_room_worker:handle_robot:326 RobotID "robot_1521794205932" join TimeOut 1521794325, Event 5
+2018-03-23 16:38:45.593 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794205932" get slotresult 5
+2018-03-23 16:38:45.604 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794205932" get slotresult 5
+2018-03-23 16:38:50.602 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794184934" get slotresult 6
+2018-03-23 16:38:50.614 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794184934" get slotresult 6
+2018-03-23 16:39:51.730 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794184934" get slotresult 2
+2018-03-23 16:39:51.752 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794184934" get slotresult 2
+2018-03-23 16:40:36.807 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794185818" get slotresult 4
+2018-03-23 16:40:36.818 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794185818" get slotresult 4
+2018-03-23 16:42:07.966 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794185818" get slotresult 5
+2018-03-23 16:42:07.971 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794185818" get slotresult 5
+2018-03-23 16:43:13.114 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794205932" get slotresult 3
+2018-03-23 16:43:13.134 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794205932" get slotresult 3
+2018-03-23 16:43:29.149 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794184934" get slotresult 6
+2018-03-23 16:43:29.162 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794184934" get slotresult 6
+2018-03-23 16:44:31.249 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794205932" get slotresult 4
+2018-03-23 16:44:31.256 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794205932" get slotresult 4
+2018-03-23 16:44:41.272 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794185818" get slotresult 6
+2018-03-23 16:44:41.279 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794185818" get slotresult 6
+2018-03-23 16:45:09.337 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "robot_1521794184934" get slotresult 4
+2018-03-23 16:45:09.355 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "robot_1521794184934" get slotresult 4
+2018-03-23 16:58:26.313 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-23 16:58:26.314 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 09:37:00.647 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 09:37:00.648 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 09:41:59.802 [info] <0.566.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",2}],[]}
+2018-03-26 09:41:59.803 [info] <0.354.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 09:43:56.501 [info] <0.566.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaaaaa",2},{user_list,222,"bbbbb",6}],[]}
+2018-03-26 09:43:56.501 [info] <0.354.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 09:45:14.804 [info] <0.566.0>@erly_room_worker:handle_robot:325 RobotID "6465887025" join TimeOut 1522028914, Event 3
+2018-03-26 09:47:37.503 [info] <0.566.0>@erly_room_worker:handle_robot:325 RobotID "7919516893" join TimeOut 1522029103, Event 1
+2018-03-26 09:49:34.572 [info] <0.31.0> Application lager started on node nonode@nohost
+2018-03-26 09:49:34.574 [info] <0.31.0> Application erly_room started on node nonode@nohost
+2018-03-26 09:51:05.342 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 09:51:05.343 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 09:51:52.702 [info] <0.330.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,1,10000,[{user_list,111,"aaaaa",9}],[]}
+2018-03-26 09:51:52.702 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,1,[{room_state,10000,1}]}
+2018-03-26 09:56:02.499 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 09:56:02.500 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 09:57:35.519 [info] <0.531.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",6}],[]}
+2018-03-26 09:57:35.519 [info] <0.527.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:01:20.948 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:01:20.949 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:01:25.896 [info] <0.335.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",8}],[]}
+2018-03-26 10:01:25.896 [info] <0.332.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:03:05.978 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:03:05.979 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:03:32.223 [info] <0.542.0>@erly_room_worker:handle_cast:124 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10}],[]}
+2018-03-26 10:03:32.223 [info] <0.350.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:06:47.223 [info] <0.542.0>@erly_room_worker:handle_robot:329 RobotID "9839594161" join TimeOut 1522030213, Event 3
+2018-03-26 10:08:01.005 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:08:01.006 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:08:05.434 [info] <0.347.0>@erly_room_worker:handle_cast:134 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",12}],[]}
+2018-03-26 10:08:05.434 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:14:53.542 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:14:53.543 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:15:01.977 [info] <0.348.0>@erly_room_worker:handle_cast:131 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",12}],[]}
+2018-03-26 10:15:01.977 [info] <0.345.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:20:07.886 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:20:07.888 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:20:11.340 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",6}],[]}
+2018-03-26 10:20:11.341 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:20:21.200 [info] <0.347.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",6},{user_list,222,"bbbbb",10}],[]}
+2018-03-26 10:20:21.200 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 10:39:21.048 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:39:21.052 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:49:29.784 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:49:29.785 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:49:34.144 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3}],[]}
+2018-03-26 10:49:34.144 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:49:44.766 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3},{user_list,222,"bbbbb",9}],[]}
+2018-03-26 10:49:44.766 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 10:49:58.146 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "3630342008" join TimeOut 1522032705, Event 2
+2018-03-26 10:50:03.567 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "6277239849" join TimeOut 1522032877, Event 5
+2018-03-26 10:50:20.796 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "2571019688" join TimeOut 1522032826, Event 5
+2018-03-26 10:52:42.424 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:52:42.426 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:52:44.725 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",2}],[]}
+2018-03-26 10:52:44.725 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:52:54.177 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",2},{user_list,222,"bbbbb",3}],[]}
+2018-03-26 10:52:54.177 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 10:53:03.127 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "0597898908" join TimeOut 1522032970, Event 4
+2018-03-26 10:53:14.978 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "0741004237" join TimeOut 1522032939, Event 5
+2018-03-26 10:53:23.375 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "9998352358" join TimeOut 1522033009, Event 4
+2018-03-26 10:55:39.166 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "0741004237" get slotresult 5
+2018-03-26 10:55:39.178 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "0741004237" get slotresult 5
+2018-03-26 10:56:10.207 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "0597898908" get slotresult 4
+2018-03-26 10:56:10.221 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "0597898908" get slotresult 4
+2018-03-26 10:56:49.245 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "9998352358" get slotresult 4
+2018-03-26 10:56:49.255 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "9998352358" get slotresult 4
+2018-03-26 10:57:36.321 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "0741004237" get slotresult 1
+2018-03-26 10:57:36.341 [info] <0.353.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "0741004237" get slotresult 1
+2018-03-26 10:58:45.506 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 10:58:45.507 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 10:58:56.054 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",1}],[]}
+2018-03-26 10:58:56.054 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 10:59:04.939 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",1},{user_list,222,"bbbbb",10}],[]}
+2018-03-26 10:59:04.939 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 10:59:14.756 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "8430170776" join TimeOut 1522033355, Event 1
+2018-03-26 10:59:28.940 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "6467286438" join TimeOut 1522033380, Event 5
+2018-03-26 10:59:34.611 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "5814056157" join TimeOut 1522033435, Event 6
+2018-03-26 11:02:26.406 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 11:02:26.407 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 11:02:32.498 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10}],[]}
+2018-03-26 11:02:32.498 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 11:02:42.775 [info] <0.347.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10},{user_list,222,"bbbbb",6}],[]}
+2018-03-26 11:02:42.775 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 11:02:51.500 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "1040728955" join TimeOut 1522033569, Event 1
+2018-03-26 11:03:06.677 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "4026918183" join TimeOut 1522033500, Event 6
+2018-03-26 11:03:14.155 [info] <0.347.0>@erly_room_worker:handle_robot:345 RobotID "9779179467" join TimeOut 1522033507, Event 2
+2018-03-26 11:05:00.824 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "4026918183" get slotresult 6
+2018-03-26 11:05:00.840 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "4026918183" get slotresult 6
+2018-03-26 11:05:07.841 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "9779179467" get slotresult 2
+2018-03-26 11:05:07.861 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "9779179467" get slotresult 2
+2018-03-26 11:06:09.952 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "1040728955" get slotresult 1
+2018-03-26 11:06:09.957 [info] <0.347.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "1040728955" get slotresult 1
+2018-03-26 11:07:56.503 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 11:07:56.504 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 11:08:21.271 [info] <0.329.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",5}],[]}
+2018-03-26 11:08:21.271 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 11:08:22.034 [info] <0.329.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",5},{user_list,222,"bbbbb",8}],[]}
+2018-03-26 11:08:22.034 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 11:08:41.236 [info] <0.329.0>@erly_room_worker:handle_robot:345 RobotID "5097228360" join TimeOut 1522033963, Event 2
+2018-03-26 11:08:44.272 [info] <0.329.0>@erly_room_worker:handle_robot:345 RobotID "9250170126" join TimeOut 1522033926, Event 4
+2018-03-26 11:09:03.420 [info] <0.329.0>@erly_room_worker:handle_robot:345 RobotID "9632567651" join TimeOut 1522034032, Event 1
+2018-03-26 11:11:45.927 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 11:11:45.928 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 11:11:50.892 [info] <0.329.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",11}],[]}
+2018-03-26 11:11:50.892 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 11:11:51.428 [info] <0.329.0>@erly_room_worker:handle_cast:141 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",11},{user_list,222,"bbbbb",2}],[]}
+2018-03-26 11:11:51.428 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 11:12:08.994 [info] <0.329.0>@erly_room_worker:handle_robot:345 RobotID "7683935492" join TimeOut 1522034053, Event 4
+2018-03-26 11:12:09.930 [info] <0.329.0>@erly_room_worker:handle_robot:345 RobotID "0899483778" join TimeOut 1522034212, Event 5
+2018-03-26 11:12:32.040 [info] <0.329.0>@erly_room_worker:handle_robot:345 RobotID "9649710657" join TimeOut 1522034063, Event 5
+2018-03-26 11:14:13.174 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "7683935492" get slotresult 4
+2018-03-26 11:14:13.184 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "7683935492" get slotresult 4
+2018-03-26 11:14:23.198 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:290 push User 111 luck user "9649710657" get slotresult 5
+2018-03-26 11:14:23.210 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:290 push User 222 luck user "9649710657" get slotresult 5
+2018-03-26 11:18:34.955 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 11:18:34.956 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 11:18:38.944 [info] <0.347.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",7}],[]}
+2018-03-26 11:18:38.944 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 11:18:38.970 [info] <0.347.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",7},{user_list,222,"bbbbb",10}],[]}
+2018-03-26 11:18:38.970 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 11:18:59.546 [info] <0.347.0>@erly_room_worker:handle_robot:346 RobotID "9853971895" join TimeOut 1522034440, Event 2
+2018-03-26 11:19:01.771 [info] <0.347.0>@erly_room_worker:handle_robot:346 RobotID "3865304405" join TimeOut 1522034476, Event 5
+2018-03-26 11:19:19.928 [info] <0.347.0>@erly_room_worker:handle_robot:346 RobotID "1346914265" join TimeOut 1522034430, Event 6
+2018-03-26 11:24:39.242 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 11:24:39.243 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 11:24:41.586 [info] <0.347.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3}],[]}
+2018-03-26 11:24:41.586 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 11:24:41.606 [info] <0.347.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3},{user_list,222,"bbbbb",9}],[]}
+2018-03-26 11:24:41.606 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 11:25:04.408 [info] <0.347.0>@erly_room_worker:handle_robot:347 RobotID "6648029368" join TimeOut 1522034997, Event 1
+2018-03-26 11:25:05.087 [info] <0.347.0>@erly_room_worker:handle_robot:347 RobotID "8210041864" join TimeOut 1522034985, Event 3
+2018-03-26 11:25:24.830 [info] <0.347.0>@erly_room_worker:handle_robot:347 RobotID "2030992592" join TimeOut 1522034927, Event 2
+2018-03-26 11:27:27.560 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 11:27:27.561 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 11:27:30.025 [info] <0.347.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",2}],[]}
+2018-03-26 11:27:30.025 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 11:27:30.044 [info] <0.347.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",2},{user_list,222,"bbbbb",4}],[]}
+2018-03-26 11:27:30.044 [info] <0.344.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 11:27:48.846 [info] <0.347.0>@erly_room_worker:handle_robot:347 RobotID "8543835126" join TimeOut 1522035125, Event 4
+2018-03-26 11:27:52.725 [info] <0.347.0>@erly_room_worker:handle_robot:347 RobotID "7688015504" join TimeOut 1522035112, Event 6
+2018-03-26 14:00:52.157 [info] <0.31.0> Application lager started on node nonode@nohost
+2018-03-26 14:00:52.158 [info] <0.31.0> Application erly_room started on node nonode@nohost
+2018-03-26 14:01:04.060 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 14:01:04.061 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 14:01:09.390 [info] <0.329.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",4}],[]}
+2018-03-26 14:01:09.390 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 14:01:09.423 [info] <0.329.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",4},{user_list,222,"bbbbb",9}],[]}
+2018-03-26 14:01:09.423 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 14:01:29.931 [info] <0.329.0>@erly_room_worker:handle_robot:347 RobotID "6098046612" join TimeOut 1522044201, Event 5
+2018-03-26 14:01:32.391 [info] <0.329.0>@erly_room_worker:handle_robot:347 RobotID "6157864635" join TimeOut 1522044337, Event 2
+2018-03-26 14:01:53.693 [info] <0.329.0>@erly_room_worker:handle_robot:347 RobotID "9382523512" join TimeOut 1522044397, Event 3
+2018-03-26 14:02:21.939 [info] <0.326.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 14:02:21.981 [info] <0.334.0>@erly_room_worker:handle_cast:142 erly_room 10001 State {room_state,10,10001,[{user_list,111,"aaaaa",7}],[]}
+2018-03-26 14:02:21.981 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1},{room_state,10001,1}]}
+2018-03-26 14:02:41.682 [info] <0.334.0>@erly_room_worker:handle_robot:347 RobotID "8783503462" join TimeOut 1522044286, Event 1
+2018-03-26 14:02:51.144 [info] <0.329.0>@erly_room_worker:handle_cast:142 erly_room 10000 State {room_state,10,10000,[{user_list,222,"bbbbb",9},{user_list,333,"ccccc",4}],[{robot_list,"6098046612","o3hwgss",12,1522044201,5},{robot_list,"6157864635","uve1eqjvv",2,1522044337,2},{robot_list,"9382523512","ky46u85cn9r",10,1522044397,3}]}
+2018-03-26 14:02:51.144 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10001,1},{room_state,10000,2}]}
+2018-03-26 14:03:01.422 [info] <0.334.0>@erly_room_worker:handle_robot:347 RobotID "4851677961" join TimeOut 1522044425, Event 3
+2018-03-26 14:03:21.613 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:292 push User 222 luck user "6098046612" get slotresult 5
+2018-03-26 14:03:21.628 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:292 push User 333 luck user "6098046612" get slotresult 5
+2018-03-26 14:03:25.065 [info] <0.334.0>@erly_room_worker:handle_robot:347 RobotID "8943943781" join TimeOut 1522044284, Event 4
+2018-03-26 14:03:28.993 [info] <0.326.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10001,1},{room_state,10000,1}]}
+2018-03-26 14:03:29.045 [info] <0.334.0>@erly_room_worker:handle_cast:142 erly_room 10001 State {room_state,10,10001,[{user_list,111,"aaaaa",7},{user_list,333,"ccccc",1}],[{robot_list,"8783503462","4e9auab2cp",10,1522044286,1},{robot_list,"4851677961","ksn29ykv",6,1522044425,3},{robot_list,"8943943781","0r92hbkh",5,1522044284,4}]}
+2018-03-26 14:03:29.045 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1},{room_state,10001,2}]}
+2018-03-26 18:00:59.960 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 18:00:59.961 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 18:01:08.695 [info] <0.388.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10}],[]}
+2018-03-26 18:01:08.695 [info] <0.385.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 18:01:08.716 [info] <0.385.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 18:01:08.716 [info] <0.388.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10},{user_list,222,"bbbbb",4}],[]}
+2018-03-26 18:01:27.818 [info] <0.388.0>@erly_room_worker:handle_robot:325 RobotID "3496211329" join TimeOut 1522058580, Event 3
+2018-03-26 18:01:31.496 [info] <0.388.0>@erly_room_worker:handle_robot:325 RobotID "5770089233" join TimeOut 1522058631, Event 1
+2018-03-26 18:01:45.863 [info] <0.388.0>@erly_room_worker:handle_robot:325 RobotID "3603875123" join TimeOut 1522058780, Event 5
+2018-03-26 18:02:08.845 [info] <0.388.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10},{user_list,222,"bbbbb",4},{user_list,333,"ccccc",7}],[{robot_list,"3496211329","zcfneft0",12,1522058580,3},{robot_list,"5770089233","ucyrjdid",9,1522058631,1},{robot_list,"3603875123","w1jx8ikcd",7,1522058780,5}]}
+2018-03-26 18:02:08.845 [info] <0.385.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-26 18:02:23.061 [info] <0.388.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10},{user_list,222,"bbbbb",4},{user_list,333,"ccccc",7},{user_list,444,"ddddd",12}],[{robot_list,"3496211329","zcfneft0",12,1522058580,3},{robot_list,"5770089233","ucyrjdid",9,1522058631,1},{robot_list,"3603875123","w1jx8ikcd",7,1522058780,5}]}
+2018-03-26 18:02:23.061 [info] <0.385.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,4}]}
+2018-03-26 18:02:24.317 [info] <0.388.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",10},{user_list,222,"bbbbb",4},{user_list,333,"ccccc",7},{user_list,444,"ddddd",12}],[{robot_list,"3496211329","zcfneft0",12,1522058580,3},{robot_list,"5770089233","ucyrjdid",9,1522058631,1},{robot_list,"3603875123","w1jx8ikcd",7,1522058780,5}]}
+2018-03-26 18:02:34.502 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-26 18:02:34.503 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-26 18:02:39.924 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3}],[]}
+2018-03-26 18:02:39.924 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-26 18:02:39.948 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3},{user_list,222,"bbbbb",4}],[]}
+2018-03-26 18:02:39.948 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-26 18:02:58.051 [info] <0.329.0>@erly_room_worker:handle_robot:325 RobotID "4570480473" join TimeOut 1522058834, Event 3
+2018-03-26 18:02:59.827 [info] <0.329.0>@erly_room_worker:handle_robot:325 RobotID "2564579372" join TimeOut 1522058849, Event 1
+2018-03-26 18:03:16.104 [info] <0.329.0>@erly_room_worker:handle_robot:325 RobotID "7629308148" join TimeOut 1522058789, Event 1
+2018-03-26 18:03:40.123 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3},{user_list,222,"bbbbb",4},{user_list,333,"ccccc",10}],[{robot_list,"4570480473","orrcfb6lrx",10,1522058834,3},{robot_list,"2564579372","gt2t1jcw121",5,1522058849,1},{robot_list,"7629308148","cgk6gj745i",5,1522058789,1}]}
+2018-03-26 18:03:40.123 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-26 18:04:04.489 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3},{user_list,222,"bbbbb",4},{user_list,333,"ccccc",10},{user_list,444,"ddddd",5}],[{robot_list,"4570480473","orrcfb6lrx",10,1522058834,3},{robot_list,"2564579372","gt2t1jcw121",5,1522058849,1},{robot_list,"7629308148","cgk6gj745i",5,1522058789,1}]}
+2018-03-26 18:04:04.489 [info] <0.326.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,4}]}
+2018-03-26 18:04:56.960 [info] <0.329.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,111,"aaaaa",3},{user_list,222,"bbbbb",4},{user_list,333,"ccccc",10},{user_list,444,"ddddd",5}],[{robot_list,"4570480473","orrcfb6lrx",10,1522058834,3},{robot_list,"2564579372","gt2t1jcw121",5,1522058849,1},{robot_list,"7629308148","cgk6gj745i",5,1522058789,1}]}
+2018-03-26 18:06:29.308 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "7629308148" get slotresult 1
+2018-03-26 18:06:29.318 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "7629308148" get slotresult 1
+2018-03-26 18:06:29.329 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "7629308148" get slotresult 1
+2018-03-26 18:06:29.338 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 444 luck user "7629308148" get slotresult 1
+2018-03-26 18:07:14.386 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 111 luck user "4570480473" get slotresult 3
+2018-03-26 18:07:14.396 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 222 luck user "4570480473" get slotresult 3
+2018-03-26 18:07:14.405 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 333 luck user "4570480473" get slotresult 3
+2018-03-26 18:07:14.415 [info] <0.329.0>@erly_room_worker:push_reward_to_single_user:270 push User 444 luck user "4570480473" get slotresult 3
+2018-03-27 09:45:55.289 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-27 09:45:55.290 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-27 09:45:58.159 [info] <0.386.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,100,"aaaaaa",2}],[]}
+2018-03-27 09:45:58.159 [info] <0.383.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-27 09:46:05.419 [info] <0.386.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,100,"aaaaaa",2},{user_list,101,"bbbbbb",6}],[]}
+2018-03-27 09:46:05.419 [info] <0.383.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-27 09:46:16.951 [info] <0.386.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,100,"aaaaaa",2},{user_list,101,"bbbbbb",6},{user_list,102,"cccccc",10}],[]}
+2018-03-27 09:46:16.951 [info] <0.383.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-27 09:46:48.157 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-27 09:46:48.159 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-27 09:46:51.191 [info] <0.381.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,100,"aaaaaa",10}],[]}
+2018-03-27 09:46:51.191 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,1}]}
+2018-03-27 09:46:58.240 [info] <0.381.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,100,"aaaaaa",10},{user_list,101,"bbbbbb",1}],[]}
+2018-03-27 09:46:58.240 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2}]}
+2018-03-27 09:47:05.735 [info] <0.381.0>@erly_room_worker:handle_cast:123 erly_room 10000 State {room_state,10,10000,[{user_list,100,"aaaaaa",10},{user_list,101,"bbbbbb",1},{user_list,102,"cccccc",2}],[]}
+2018-03-27 09:47:05.735 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,3}]}
+2018-03-27 09:48:37.977 [info] <0.378.0>@erly_room_manage:handle_cast:113 manage State {state,10,[{room_state,10000,2}]}
+2018-03-27 09:48:38.020 [info] <0.386.0>@erly_room_worker:handle_cast:123 erly_room 10001 State {room_state,10,10001,[{user_list,102,"cccccc",2}],[]}
+2018-03-27 09:48:38.021 [info] <0.378.0>@erly_room_manage:handle_cast:119 manage State {state,10,[{room_state,10000,2},{room_state,10001,1}]}
+2018-03-27 09:48:58.522 [info] <0.386.0>@erly_room_worker:handle_robot:326 RobotID "7959584246" join TimeOut 1522115543, Event 1
+2018-03-27 09:48:59.134 [info] <0.381.0>@erly_room_worker:handle_robot:326 RobotID "9113705492" join TimeOut 1522115525, Event 2
+2018-03-27 09:49:17.787 [info] <0.381.0>@erly_room_worker:handle_robot:326 RobotID "4755642391" join TimeOut 1522115505, Event 4
+2018-03-27 09:49:18.264 [info] <0.386.0>@erly_room_worker:handle_robot:326 RobotID "2631874413" join TimeOut 1522115611, Event 2
+2018-03-27 09:49:38.046 [info] <0.381.0>@erly_room_worker:handle_robot:326 RobotID "9550856256" join TimeOut 1522115616, Event 5
+2018-03-27 09:49:40.499 [info] <0.386.0>@erly_room_worker:handle_robot:326 RobotID "6299100823" join TimeOut 1522115469, Event 5
+2018-03-27 14:19:39.839 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-27 14:19:39.840 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-27 18:40:21.597 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-27 18:40:21.598 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'
+2018-03-28 10:05:17.734 [info] <0.31.0> Application lager started on node 'erly_room@127.0.0.1'
+2018-03-28 10:05:17.735 [info] <0.31.0> Application erly_room started on node 'erly_room@127.0.0.1'

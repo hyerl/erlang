@@ -1,0 +1,1057 @@
+2018-03-05 15:30:01.280 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:30:01.303 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-05 15:30:01.303 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-05 15:30:01.305 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-05 15:30:01.305 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-05 15:30:01.766 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:30:07.671 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-05 15:30:07.675 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-05 15:30:08.299 [debug] <0.329.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:30:30.300 [debug] <0.329.0>@erly_room:handle_robot:248 RobotID "robot_1520235030300" join TimeOut 1520235278, Event 1
+2018-03-05 15:30:30.301 [debug] <0.329.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235030300"
+2018-03-05 15:30:32.301 [debug] <0.329.0>@erly_room:handle_robot:248 RobotID "robot_1520235032300" join TimeOut 1520235271, Event 3
+2018-03-05 15:30:32.301 [debug] <0.329.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235032300"
+2018-03-05 15:30:47.756 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:30:47.769 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-05 15:30:47.769 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-05 15:30:47.772 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-05 15:30:47.772 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-05 15:30:48.249 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:30:52.845 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-05 15:30:52.848 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-05 15:30:53.677 [debug] <0.329.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:31:11.678 [debug] <0.329.0>@erly_room:handle_robot:248 RobotID "robot_1520235071678" join TimeOut 1520235206, Event 2
+2018-03-05 15:31:11.678 [debug] <0.329.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235071678"
+2018-03-05 15:31:17.679 [debug] <0.329.0>@erly_room:handle_robot:248 RobotID "robot_1520235077679" join TimeOut 1520235297, Event 1
+2018-03-05 15:31:17.679 [debug] <0.329.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235077679"
+2018-03-05 15:31:27.652 [debug] <0.329.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "002"
+2018-03-05 15:31:27.652 [debug] <0.329.0>@erly_room:handle_info:110 erly_room 10000 NewState {room_state,100,10000,["001","002"],[{robot_list,"robot_1520235071678",1520235206,2},{robot_list,"robot_1520235077679",1520235297,1}]}
+2018-03-05 15:31:29.680 [debug] <0.329.0>@erly_room:handle_robot:248 RobotID "robot_1520235089680" join TimeOut 1520235188, Event 6
+2018-03-05 15:31:29.680 [debug] <0.329.0>@erly_room:broadcast:233 call user = "001" a player join this room name = "robot_1520235089680"
+2018-03-05 15:31:29.680 [debug] <0.329.0>@erly_room:broadcast:233 call user = "002" a player join this room name = "robot_1520235089680"
+2018-03-05 15:32:06.093 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:32:06.107 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:32:06.107 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:32:06.110 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:32:06.110 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:32:06.584 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:32:11.041 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:32:11.045 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:34:44.378 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:34:44.391 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:34:44.391 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:34:44.393 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:34:44.393 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:34:44.873 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:34:49.191 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:34:49.193 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:38:03.629 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:38:03.641 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:38:03.641 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:38:03.642 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:38:03.642 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:38:04.124 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:38:07.630 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:38:07.632 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:40:39.336 [debug] <0.355.0> Supervisor inet_gethost_native_sup started undefined at pid <0.356.0>
+2018-03-05 15:40:39.336 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.355.0>
+2018-03-05 15:40:39.419 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.358.0>
+2018-03-05 15:41:40.321 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:41:40.335 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:41:40.335 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:41:40.336 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:41:40.336 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:41:40.815 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:41:44.447 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:41:44.449 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:42:52.705 [debug] <0.354.0> Supervisor inet_gethost_native_sup started undefined at pid <0.355.0>
+2018-03-05 15:42:52.705 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.354.0>
+2018-03-05 15:42:52.783 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.357.0>
+2018-03-05 15:44:01.148 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:44:01.159 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-05 15:44:01.159 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-05 15:44:01.160 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-05 15:44:01.160 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-05 15:44:01.644 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:44:05.514 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-05 15:44:05.517 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-05 15:45:53.878 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:45:53.897 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:45:53.897 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:45:53.899 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:45:53.899 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:45:54.369 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:45:57.438 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:45:57.439 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:48:14.743 [debug] <0.351.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:48:14.761 [debug] <0.330.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.353.0>
+2018-03-05 15:48:14.761 [debug] <0.329.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.354.0>
+2018-03-05 15:48:14.763 [debug] <0.331.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.355.0>
+2018-03-05 15:48:14.763 [debug] <0.331.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.356.0>
+2018-03-05 15:48:15.237 [debug] <0.339.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:48:30.748 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:48:30.760 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-05 15:48:30.760 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-05 15:48:30.763 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-05 15:48:30.763 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-05 15:48:31.239 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:49:00.329 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-05 15:49:00.332 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-05 15:52:10.223 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:52:10.238 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:52:10.238 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:52:10.239 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:52:10.239 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:52:10.713 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:52:15.613 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:52:15.615 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:52:51.143 [debug] <0.354.0> Supervisor inet_gethost_native_sup started undefined at pid <0.355.0>
+2018-03-05 15:52:51.143 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.354.0>
+2018-03-05 15:52:51.237 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.357.0>
+2018-03-05 15:53:42.956 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:53:42.970 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-05 15:53:42.970 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-05 15:53:42.971 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-05 15:53:42.971 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-05 15:53:43.448 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:53:47.195 [debug] <0.361.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.362.0>
+2018-03-05 15:53:47.197 [debug] <0.361.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.363.0>
+2018-03-05 15:53:47.201 [debug] <0.365.0>@erly_room:handle_info:98 erly_room user_join State {room_state,100,10000,[],[]}
+2018-03-05 15:53:47.202 [debug] <0.362.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.365.0>,1}]}
+2018-03-05 15:53:47.207 [debug] <0.365.0>@erly_room:handle_info:114 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:54:00.521 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:54:00.536 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:54:00.536 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:54:00.537 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:54:00.538 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:54:01.013 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:54:04.286 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:54:04.288 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:54:04.294 [debug] <0.347.0>@erly_room:handle_info:98 erly_room user_join State {room_state,100,10000,[],[]}
+2018-03-05 15:54:04.295 [debug] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 15:54:04.301 [debug] <0.347.0>@erly_room:handle_info:114 erly_room 10000 NewState {room_state,100,10000,["001"],[]}
+2018-03-05 15:54:26.303 [debug] <0.347.0>@erly_room:handle_robot:253 RobotID "robot_1520236466303" join TimeOut 1520236584, Event 5
+2018-03-05 15:54:26.303 [debug] <0.347.0>@erly_room:broadcast:238 call user = "001" a player join this room name = "robot_1520236466303"
+2018-03-05 15:54:28.302 [debug] <0.347.0>@erly_room:handle_robot:253 RobotID "robot_1520236468302" join TimeOut 1520236545, Event 5
+2018-03-05 15:54:28.302 [debug] <0.347.0>@erly_room:broadcast:238 call user = "001" a player join this room name = "robot_1520236468302"
+2018-03-05 15:54:52.568 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 15:54:52.589 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 15:54:52.590 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 15:54:52.591 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 15:54:52.591 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 15:54:53.055 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 15:54:56.570 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 15:54:56.573 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 15:54:56.578 [debug] <0.344.0>@erly_room_manage:handle_info:111 NewState {state,100,[{room_state,10000,<0.347.0>,1}]}
+2018-03-05 16:02:37.626 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 16:02:37.636 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-05 16:02:37.637 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-05 16:02:37.640 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-05 16:02:37.640 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-05 16:02:38.120 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 16:02:41.748 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-05 16:02:41.751 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-05 17:43:14.312 [debug] <0.386.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 17:43:14.326 [debug] <0.365.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.388.0>
+2018-03-05 17:43:14.326 [debug] <0.364.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.389.0>
+2018-03-05 17:43:14.328 [debug] <0.366.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.390.0>
+2018-03-05 17:43:14.328 [debug] <0.366.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.391.0>
+2018-03-05 17:43:14.803 [debug] <0.374.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 17:43:19.389 [debug] <0.398.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.399.0>
+2018-03-05 17:43:19.390 [debug] <0.398.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.400.0>
+2018-03-05 17:46:59.178 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 17:46:59.192 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-05 17:46:59.192 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-05 17:46:59.193 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-05 17:46:59.193 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-05 17:46:59.670 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 17:47:03.979 [debug] <0.361.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.362.0>
+2018-03-05 17:47:03.982 [debug] <0.361.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.363.0>
+2018-03-05 17:52:18.422 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 17:52:18.444 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-05 17:52:18.445 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-05 17:52:18.447 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-05 17:52:18.447 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-05 17:52:18.911 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-05 17:52:23.483 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-05 17:52:23.486 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-05 17:57:49.626 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-05 17:57:49.649 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-05 17:57:49.649 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-05 17:57:49.651 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-05 17:57:49.652 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-05 17:57:50.115 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 09:35:49.346 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 09:35:49.360 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-06 09:35:49.360 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-06 09:35:49.362 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-06 09:35:49.362 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-06 09:35:49.837 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 09:35:56.083 [debug] <0.347.0> Supervisor inet_gethost_native_sup started undefined at pid <0.348.0>
+2018-03-06 09:35:56.083 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.347.0>
+2018-03-06 09:35:56.177 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.350.0>
+2018-03-06 09:36:49.978 [debug] <0.432.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.433.0>
+2018-03-06 09:36:49.982 [debug] <0.432.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.434.0>
+2018-03-06 09:49:17.948 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 09:49:17.967 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-06 09:49:17.967 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-06 09:49:17.970 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-06 09:49:17.970 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-06 09:49:18.437 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 09:49:23.175 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-06 09:49:23.178 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-06 09:59:27.721 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 09:59:27.734 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-06 09:59:27.734 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-06 09:59:27.735 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-06 09:59:27.735 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-06 09:59:28.212 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 10:00:26.841 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 10:00:26.855 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-06 10:00:26.855 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-06 10:00:26.859 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-06 10:00:26.859 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-06 10:00:27.336 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 10:02:48.883 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 10:02:48.897 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-06 10:02:48.897 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-06 10:02:48.899 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-06 10:02:48.899 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-06 10:02:49.375 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 10:02:59.538 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-06 10:02:59.540 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-06 10:25:12.911 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 10:25:12.929 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-06 10:25:12.929 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-06 10:25:12.931 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-06 10:25:12.931 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-06 10:25:13.401 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 10:25:17.297 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-06 10:25:17.300 [debug] <0.343.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.345.0>
+2018-03-06 10:41:52.554 [debug] <0.365.0> Supervisor inet_gethost_native_sup started undefined at pid <0.366.0>
+2018-03-06 10:41:52.554 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.365.0>
+2018-03-06 10:41:52.741 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.368.0>
+2018-03-06 17:49:48.513 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 17:49:48.529 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-06 17:49:48.529 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-06 17:49:48.530 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-06 17:49:48.530 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-06 17:49:49.005 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 17:50:00.857 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-06 17:50:00.858 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-06 17:50:08.730 [debug] <0.335.0> Supervisor inet_gethost_native_sup started undefined at pid <0.336.0>
+2018-03-06 17:50:08.730 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.335.0>
+2018-03-06 17:50:08.822 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.338.0>
+2018-03-06 17:52:55.185 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 17:52:55.198 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-06 17:52:55.198 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-06 17:52:55.200 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-06 17:52:55.200 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-06 17:52:55.676 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 18:21:35.940 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-06 18:21:35.950 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-06 18:21:35.950 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-06 18:21:35.951 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-06 18:21:35.952 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-06 18:21:36.433 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-06 18:22:15.108 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-06 18:22:15.111 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-07 18:23:57.679 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-07 18:23:57.694 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-07 18:23:57.694 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-07 18:23:57.715 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-07 18:23:57.715 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-07 18:23:58.141 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-07 18:24:08.581 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-07 18:24:08.582 [debug] <0.343.0> Supervisor erly_room_sup_10 started room_sup:start_link(10) at pid <0.345.0>
+2018-03-07 18:24:31.738 [debug] <0.356.0> Supervisor inet_gethost_native_sup started undefined at pid <0.357.0>
+2018-03-07 18:24:31.738 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.356.0>
+2018-03-07 18:24:31.868 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.359.0>
+2018-03-08 17:14:12.950 [debug] <0.341.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:14:12.961 [debug] <0.320.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.343.0>
+2018-03-08 17:14:12.961 [debug] <0.319.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.344.0>
+2018-03-08 17:14:12.962 [debug] <0.321.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.345.0>
+2018-03-08 17:14:12.962 [debug] <0.321.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.346.0>
+2018-03-08 17:14:13.443 [debug] <0.329.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:15:43.238 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:15:43.250 [debug] <0.316.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.339.0>
+2018-03-08 17:15:43.250 [debug] <0.315.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.340.0>
+2018-03-08 17:15:43.251 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.341.0>
+2018-03-08 17:15:43.251 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.342.0>
+2018-03-08 17:15:43.734 [debug] <0.325.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:15:54.581 [debug] <0.349.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.350.0>
+2018-03-08 17:15:54.583 [debug] <0.349.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.351.0>
+2018-03-08 17:19:52.490 [debug] <0.355.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:19:52.500 [debug] <0.334.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.357.0>
+2018-03-08 17:19:52.501 [debug] <0.333.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.358.0>
+2018-03-08 17:19:52.502 [debug] <0.335.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.359.0>
+2018-03-08 17:19:52.502 [debug] <0.335.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.360.0>
+2018-03-08 17:19:52.983 [debug] <0.343.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:20:03.745 [debug] <0.367.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.368.0>
+2018-03-08 17:20:03.747 [debug] <0.367.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.369.0>
+2018-03-08 17:21:31.944 [debug] <0.377.0> Supervisor inet_gethost_native_sup started undefined at pid <0.378.0>
+2018-03-08 17:21:31.944 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.377.0>
+2018-03-08 17:21:32.031 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.380.0>
+2018-03-08 17:22:36.803 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:22:36.813 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-08 17:22:36.813 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-08 17:22:36.815 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-08 17:22:36.815 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-08 17:22:37.298 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:22:45.651 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-08 17:22:45.653 [debug] <0.325.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.327.0>
+2018-03-08 17:24:17.959 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:24:17.971 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-08 17:24:17.971 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-08 17:24:17.973 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-08 17:24:17.973 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-08 17:24:18.454 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:24:51.550 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-08 17:24:51.552 [debug] <0.325.0> Supervisor erly_room_sup_10 started room_sup:start_link(10) at pid <0.327.0>
+2018-03-08 17:25:33.638 [debug] <0.379.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:25:33.648 [debug] <0.358.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.381.0>
+2018-03-08 17:25:33.648 [debug] <0.357.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.382.0>
+2018-03-08 17:25:33.650 [debug] <0.359.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.383.0>
+2018-03-08 17:25:33.650 [debug] <0.359.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.384.0>
+2018-03-08 17:25:34.133 [debug] <0.367.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:25:51.968 [debug] <0.391.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.392.0>
+2018-03-08 17:25:51.970 [debug] <0.391.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.393.0>
+2018-03-08 17:26:04.364 [debug] <0.391.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.395.0>
+2018-03-08 17:26:04.365 [debug] <0.391.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.396.0>
+2018-03-08 17:31:20.436 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:31:20.448 [debug] <0.298.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.321.0>
+2018-03-08 17:31:20.448 [debug] <0.297.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.322.0>
+2018-03-08 17:31:20.449 [debug] <0.299.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.323.0>
+2018-03-08 17:31:20.449 [debug] <0.299.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.324.0>
+2018-03-08 17:31:20.930 [debug] <0.307.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:31:31.922 [debug] <0.331.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.332.0>
+2018-03-08 17:31:31.924 [debug] <0.331.0> Supervisor erly_room_sup_100 started room_sup:start_link(100) at pid <0.333.0>
+2018-03-08 17:32:04.258 [debug] <0.342.0> Supervisor inet_gethost_native_sup started undefined at pid <0.343.0>
+2018-03-08 17:32:04.258 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.342.0>
+2018-03-08 17:32:04.631 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.345.0>
+2018-03-08 17:33:36.295 [debug] <0.343.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:33:36.305 [debug] <0.322.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.345.0>
+2018-03-08 17:33:36.305 [debug] <0.321.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.346.0>
+2018-03-08 17:33:36.307 [debug] <0.323.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.347.0>
+2018-03-08 17:33:36.307 [debug] <0.323.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.348.0>
+2018-03-08 17:33:36.788 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:33:52.496 [debug] <0.355.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.356.0>
+2018-03-08 17:33:52.499 [debug] <0.355.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.357.0>
+2018-03-08 17:34:14.443 [debug] <0.366.0> Supervisor inet_gethost_native_sup started undefined at pid <0.367.0>
+2018-03-08 17:34:14.443 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.366.0>
+2018-03-08 17:34:14.521 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.369.0>
+2018-03-08 17:36:06.889 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-08 17:36:06.905 [debug] <0.316.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.339.0>
+2018-03-08 17:36:06.905 [debug] <0.315.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.340.0>
+2018-03-08 17:36:06.908 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.341.0>
+2018-03-08 17:36:06.908 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.342.0>
+2018-03-08 17:36:07.384 [debug] <0.325.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-08 17:36:22.549 [debug] <0.349.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.350.0>
+2018-03-08 17:36:22.552 [debug] <0.349.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.351.0>
+2018-03-09 10:37:55.540 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 10:37:55.555 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-09 10:37:55.555 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-09 10:37:55.557 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-09 10:37:55.557 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-09 10:37:56.035 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 10:38:15.993 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-09 10:38:15.995 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.327.0>
+2018-03-09 10:40:30.868 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 10:40:30.880 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-09 10:40:30.880 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-09 10:40:30.881 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-09 10:40:30.881 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-09 10:40:31.362 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 10:40:43.355 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-09 10:40:43.357 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.345.0>
+2018-03-09 10:43:46.576 [debug] <0.344.0>@erly_room_manage:handle_cast:103 RoomStateList [{room_state,10000,5}]
+2018-03-09 10:43:46.576 [debug] <0.344.0>@erly_room_manage:handle_cast:116 NewRoomStateList [{room_state,10000,4}]
+2018-03-09 10:43:46.576 [debug] <0.344.0>@erly_room_manage:handle_cast:118 erly_room_manage NewState {state,100,[{room_state,10000,4}]}
+2018-03-09 10:56:12.819 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 10:56:12.830 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-09 10:56:12.830 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-09 10:56:12.832 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-09 10:56:12.832 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-09 10:56:13.310 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 10:56:23.121 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-09 10:56:23.123 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.327.0>
+2018-03-09 10:56:53.248 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 10:56:53.260 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-09 10:56:53.260 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-09 10:56:53.261 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-09 10:56:53.261 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-09 10:56:53.742 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 10:57:07.440 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-09 10:57:07.442 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.327.0>
+2018-03-09 11:03:34.520 [debug] <0.361.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 11:03:34.532 [debug] <0.340.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.363.0>
+2018-03-09 11:03:34.532 [debug] <0.339.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.364.0>
+2018-03-09 11:03:34.534 [debug] <0.341.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.365.0>
+2018-03-09 11:03:34.534 [debug] <0.341.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.366.0>
+2018-03-09 11:03:35.015 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 11:21:37.725 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 11:21:37.737 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-09 11:21:37.737 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-09 11:21:37.738 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-09 11:21:37.738 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-09 11:21:38.220 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 11:21:49.360 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-09 11:21:49.363 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.327.0>
+2018-03-09 11:24:10.553 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-09 11:24:10.564 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-09 11:24:10.564 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-09 11:24:10.565 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-09 11:24:10.566 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-09 11:24:11.048 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-09 11:24:19.601 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.326.0>
+2018-03-09 11:24:19.603 [debug] <0.325.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.327.0>
+2018-03-12 13:08:26.510 [debug] <0.370.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 13:08:26.530 [debug] <0.349.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.372.0>
+2018-03-12 13:08:26.530 [debug] <0.348.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.373.0>
+2018-03-12 13:08:26.533 [debug] <0.350.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.374.0>
+2018-03-12 13:08:26.533 [debug] <0.350.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.375.0>
+2018-03-12 13:08:26.998 [debug] <0.358.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 13:09:15.384 [debug] <0.382.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.383.0>
+2018-03-12 13:09:15.387 [debug] <0.382.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.384.0>
+2018-03-12 13:09:38.537 [debug] <0.392.0> Supervisor inet_gethost_native_sup started undefined at pid <0.393.0>
+2018-03-12 13:09:38.537 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.392.0>
+2018-03-12 13:09:38.709 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.395.0>
+2018-03-12 13:22:37.774 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 13:22:37.790 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-12 13:22:37.790 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-12 13:22:37.792 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-12 13:22:37.792 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-12 13:22:38.265 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 13:22:49.715 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-12 13:22:49.717 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.345.0>
+2018-03-12 13:24:34.366 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 13:24:34.380 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-12 13:24:34.380 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-12 13:24:34.382 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-12 13:24:34.382 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-12 13:24:34.860 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 13:24:51.750 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_manage:start_link(100) at pid <0.344.0>
+2018-03-12 13:24:51.752 [debug] <0.343.0> Supervisor erly_room_sup_100 started erly_room_worker_sup:start_link(100) at pid <0.345.0>
+2018-03-12 13:28:54.758 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 13:28:54.772 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-12 13:28:54.772 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-12 13:28:54.773 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-12 13:28:54.773 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-12 13:28:55.249 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 13:29:06.175 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-12 13:29:06.178 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-12 13:50:57.338 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 13:50:57.350 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-12 13:50:57.350 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-12 13:50:57.351 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-12 13:50:57.351 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-12 13:50:57.834 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 13:51:11.404 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-12 13:51:11.406 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-12 14:17:51.558 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 14:17:51.569 [debug] <0.316.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.339.0>
+2018-03-12 14:17:51.569 [debug] <0.315.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.340.0>
+2018-03-12 14:17:51.570 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.341.0>
+2018-03-12 14:17:51.570 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.342.0>
+2018-03-12 14:17:52.048 [debug] <0.325.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 14:19:13.395 [debug] <0.349.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.350.0>
+2018-03-12 14:19:13.397 [debug] <0.349.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.351.0>
+2018-03-12 17:23:02.815 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 17:23:02.830 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-12 17:23:02.830 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-12 17:23:02.831 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-12 17:23:02.831 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-12 17:23:03.309 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 17:23:12.240 [debug] <0.361.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.362.0>
+2018-03-12 17:23:12.242 [debug] <0.361.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.363.0>
+2018-03-12 17:23:30.335 [debug] <0.371.0> Supervisor inet_gethost_native_sup started undefined at pid <0.372.0>
+2018-03-12 17:23:30.335 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.371.0>
+2018-03-12 17:23:30.419 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.374.0>
+2018-03-12 17:24:12.679 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-12 17:24:12.694 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-12 17:24:12.694 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-12 17:24:12.698 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-12 17:24:12.698 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-12 17:24:13.173 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-12 17:24:20.566 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-12 17:24:20.568 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-13 16:32:48.940 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-13 16:32:48.950 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-13 16:32:48.950 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-13 16:32:48.953 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-13 16:32:48.953 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-13 16:32:49.434 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-19 17:25:43.605 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-19 17:25:43.620 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-19 17:25:43.620 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-19 17:25:43.621 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-19 17:25:43.622 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-19 17:25:44.097 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-19 17:25:53.807 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-19 17:25:53.808 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-19 17:29:13.013 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-19 17:29:13.025 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-19 17:29:13.025 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-19 17:29:13.027 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-19 17:29:13.027 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-19 17:29:13.508 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-19 17:29:22.024 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-19 17:29:22.027 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-19 17:29:31.070 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.349.0>
+2018-03-19 17:29:31.071 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.350.0>
+2018-03-20 14:43:14.024 [debug] <0.323.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 14:43:14.044 [debug] <0.302.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.325.0>
+2018-03-20 14:43:14.044 [debug] <0.301.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.326.0>
+2018-03-20 14:43:14.046 [debug] <0.303.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.327.0>
+2018-03-20 14:43:14.046 [debug] <0.303.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.328.0>
+2018-03-20 14:43:14.515 [debug] <0.311.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 14:43:20.753 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 14:43:20.762 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-20 14:43:20.763 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-20 14:43:20.764 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-20 14:43:20.765 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-20 14:43:21.247 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 14:43:30.188 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-20 14:43:30.190 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-20 14:46:22.641 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 14:46:22.651 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-20 14:46:22.651 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-20 14:46:22.653 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-20 14:46:22.653 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-20 14:46:23.133 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 14:46:35.858 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-20 14:46:35.859 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-20 14:48:15.966 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 14:48:15.981 [debug] <0.298.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.321.0>
+2018-03-20 14:48:15.981 [debug] <0.297.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.322.0>
+2018-03-20 14:48:15.983 [debug] <0.299.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.323.0>
+2018-03-20 14:48:15.983 [debug] <0.299.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.324.0>
+2018-03-20 14:48:16.459 [debug] <0.307.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 14:48:22.063 [debug] <0.331.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.332.0>
+2018-03-20 14:48:22.064 [debug] <0.331.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.333.0>
+2018-03-20 14:52:13.224 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 14:52:13.235 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-20 14:52:13.235 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-20 14:52:13.236 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-20 14:52:13.237 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-20 14:52:13.714 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 14:52:30.349 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-20 14:52:30.350 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-20 14:54:10.003 [debug] <0.338.0> Supervisor inet_gethost_native_sup started undefined at pid <0.339.0>
+2018-03-20 14:54:10.003 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.338.0>
+2018-03-20 14:54:10.243 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.341.0>
+2018-03-20 15:04:39.362 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 15:04:39.381 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-20 15:04:39.381 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-20 15:04:39.382 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-20 15:04:39.382 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-20 15:04:39.853 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 15:04:45.361 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-20 15:04:45.362 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-20 15:05:48.442 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 15:05:48.461 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-20 15:05:48.461 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-20 15:05:48.462 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-20 15:05:48.463 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-20 15:05:48.933 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 15:05:51.973 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-20 15:05:51.976 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-20 15:06:17.645 [debug] <0.356.0> Supervisor inet_gethost_native_sup started undefined at pid <0.357.0>
+2018-03-20 15:06:17.645 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.356.0>
+2018-03-20 15:06:17.728 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.359.0>
+2018-03-20 15:43:43.510 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 15:43:43.523 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-20 15:43:43.523 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-20 15:43:43.525 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-20 15:43:43.525 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-20 15:43:44.004 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 15:43:54.230 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-20 15:43:54.232 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-20 15:45:27.253 [debug] <0.359.0> Supervisor inet_gethost_native_sup started undefined at pid <0.360.0>
+2018-03-20 15:45:27.253 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.359.0>
+2018-03-20 15:45:27.334 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.362.0>
+2018-03-20 15:51:47.939 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 15:51:47.952 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-20 15:51:47.952 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-20 15:51:47.953 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-20 15:51:47.954 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-20 15:51:48.429 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 15:52:02.511 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 15:52:02.522 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-20 15:52:02.522 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-20 15:52:02.524 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-20 15:52:02.524 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-20 15:52:03.003 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 15:52:11.722 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-20 15:52:11.726 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-20 15:54:03.606 [debug] <0.343.0> Supervisor inet_gethost_native_sup started undefined at pid <0.344.0>
+2018-03-20 15:54:03.606 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.343.0>
+2018-03-20 15:54:03.686 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.346.0>
+2018-03-20 15:58:42.128 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 15:58:42.140 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-20 15:58:42.140 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-20 15:58:42.141 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-20 15:58:42.141 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-20 15:58:42.621 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 15:58:48.335 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-20 15:58:48.337 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-20 16:02:51.279 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-20 16:02:51.297 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-20 16:02:51.297 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-20 16:02:51.299 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-20 16:02:51.299 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-20 16:02:51.772 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-20 16:03:01.262 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-20 16:03:01.265 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-21 10:11:20.524 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 10:11:20.538 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-21 10:11:20.538 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-21 10:11:20.540 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-21 10:11:20.540 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-21 10:11:21.014 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 10:11:38.702 [debug] <0.327.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.328.0>
+2018-03-21 10:11:38.705 [debug] <0.327.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.329.0>
+2018-03-21 10:13:35.178 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 10:13:35.194 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-21 10:13:35.194 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-21 10:13:35.195 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-21 10:13:35.195 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-21 10:13:35.671 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 10:13:43.605 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-21 10:13:43.607 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-21 14:12:14.473 [debug] <0.341.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 14:12:14.521 [debug] <0.320.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.343.0>
+2018-03-21 14:12:14.522 [debug] <0.319.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.344.0>
+2018-03-21 14:12:14.525 [debug] <0.321.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.345.0>
+2018-03-21 14:12:14.526 [debug] <0.321.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.346.0>
+2018-03-21 14:12:14.951 [debug] <0.329.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 14:25:41.035 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 14:25:41.052 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-21 14:25:41.052 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-21 14:25:41.054 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-21 14:25:41.054 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-21 14:25:41.522 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 14:27:17.595 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 14:27:17.621 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-21 14:27:17.622 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-21 14:27:17.630 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-21 14:27:17.630 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-21 14:27:18.095 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 17:50:45.433 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 17:50:45.475 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-21 17:50:45.475 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-21 17:50:45.477 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-21 17:50:45.477 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-21 17:50:45.924 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 17:50:59.366 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-21 17:50:59.366 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-21 18:00:35.544 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-21 18:00:35.561 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-21 18:00:35.561 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-21 18:00:35.564 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-21 18:00:35.564 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-21 18:00:36.036 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-21 18:00:46.405 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-21 18:00:46.406 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-22 10:57:27.048 [debug] <0.317.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-22 10:57:27.074 [debug] <0.296.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.319.0>
+2018-03-22 10:57:27.074 [debug] <0.295.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.320.0>
+2018-03-22 10:57:27.076 [debug] <0.297.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.321.0>
+2018-03-22 10:57:27.077 [debug] <0.297.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.322.0>
+2018-03-22 10:57:27.535 [debug] <0.305.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:04:51.138 [debug] <0.340.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:04:51.160 [debug] <0.319.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.342.0>
+2018-03-23 14:04:51.161 [debug] <0.318.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.343.0>
+2018-03-23 14:04:51.163 [debug] <0.320.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.344.0>
+2018-03-23 14:04:51.163 [debug] <0.320.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.345.0>
+2018-03-23 14:04:51.625 [debug] <0.328.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:04:55.080 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:04:55.092 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-23 14:04:55.092 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-23 14:04:55.093 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-23 14:04:55.094 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-23 14:04:55.575 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:05:04.946 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-23 14:05:04.948 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-23 14:12:20.308 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:12:20.320 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-23 14:12:20.320 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-23 14:12:20.321 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-23 14:12:20.321 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-23 14:12:20.803 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:12:29.643 [debug] <0.361.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.362.0>
+2018-03-23 14:12:29.644 [debug] <0.361.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.363.0>
+2018-03-23 14:17:58.637 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:17:58.649 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 14:17:58.649 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 14:17:58.651 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 14:17:58.652 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 14:17:59.131 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:18:15.773 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:18:15.783 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-23 14:18:15.783 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-23 14:18:15.785 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-23 14:18:15.785 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-23 14:18:16.267 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:18:24.958 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-23 14:18:24.961 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-23 14:21:22.661 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:21:22.672 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 14:21:22.672 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 14:21:22.673 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 14:21:22.673 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 14:21:23.155 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:21:30.766 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 14:21:30.769 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 14:40:07.198 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:40:07.213 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-23 14:40:07.213 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-23 14:40:07.215 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-23 14:40:07.215 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-23 14:40:07.691 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:41:16.431 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:41:16.443 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-23 14:41:16.443 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-23 14:41:16.445 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-23 14:41:16.445 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-23 14:41:16.923 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 14:41:49.611 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 14:41:49.622 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 14:41:49.622 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 14:41:49.623 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 14:41:49.623 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 14:41:50.105 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:02:14.119 [debug] <0.567.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:02:14.130 [debug] <0.546.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.569.0>
+2018-03-23 16:02:14.130 [debug] <0.545.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.570.0>
+2018-03-23 16:02:14.132 [debug] <0.547.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.571.0>
+2018-03-23 16:02:14.132 [debug] <0.547.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.572.0>
+2018-03-23 16:02:14.610 [debug] <0.555.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:02:26.652 [debug] <0.579.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.580.0>
+2018-03-23 16:02:26.656 [debug] <0.579.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.581.0>
+2018-03-23 16:03:39.768 [debug] <0.365.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:03:39.781 [debug] <0.344.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.367.0>
+2018-03-23 16:03:39.781 [debug] <0.343.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.368.0>
+2018-03-23 16:03:39.783 [debug] <0.345.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.369.0>
+2018-03-23 16:03:39.783 [debug] <0.345.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.370.0>
+2018-03-23 16:03:40.259 [debug] <0.353.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:03:49.646 [debug] <0.377.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.378.0>
+2018-03-23 16:03:49.649 [debug] <0.377.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.379.0>
+2018-03-23 16:08:39.196 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:08:39.210 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 16:08:39.210 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 16:08:39.212 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 16:08:39.212 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 16:08:39.686 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:08:46.155 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 16:08:46.158 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 16:10:48.658 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:10:48.670 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 16:10:48.670 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 16:10:48.671 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 16:10:48.671 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 16:10:49.148 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:11:04.266 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 16:11:04.268 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 16:27:31.013 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:27:31.027 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 16:27:31.027 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 16:27:31.029 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 16:27:31.029 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 16:27:31.501 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:27:44.493 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 16:27:44.495 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 16:28:51.567 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:28:51.582 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 16:28:51.582 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 16:28:51.584 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 16:28:51.584 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 16:28:52.058 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:28:56.846 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 16:28:56.848 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 16:32:09.585 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:32:09.596 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 16:32:09.597 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 16:32:09.598 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 16:32:09.598 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 16:32:10.079 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:32:20.521 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 16:32:20.523 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 16:34:25.088 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:34:25.102 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-23 16:34:25.102 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-23 16:34:25.104 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-23 16:34:25.104 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-23 16:34:25.582 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:34:33.854 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-23 16:34:33.856 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-23 16:35:43.802 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:35:43.812 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-23 16:35:43.812 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-23 16:35:43.814 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-23 16:35:43.814 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-23 16:35:44.294 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-23 16:35:53.901 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-23 16:35:53.904 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-23 16:58:26.285 [debug] <0.366.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-23 16:58:26.297 [debug] <0.345.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.368.0>
+2018-03-23 16:58:26.297 [debug] <0.344.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.369.0>
+2018-03-23 16:58:26.299 [debug] <0.346.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.370.0>
+2018-03-23 16:58:26.299 [debug] <0.346.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.371.0>
+2018-03-23 16:58:26.777 [debug] <0.354.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 09:37:00.616 [debug] <0.341.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 09:37:00.630 [debug] <0.320.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.343.0>
+2018-03-26 09:37:00.630 [debug] <0.319.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.344.0>
+2018-03-26 09:37:00.632 [debug] <0.321.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.345.0>
+2018-03-26 09:37:00.632 [debug] <0.321.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.346.0>
+2018-03-26 09:37:01.107 [debug] <0.329.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 09:37:20.903 [debug] <0.353.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.354.0>
+2018-03-26 09:37:20.905 [debug] <0.353.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.355.0>
+2018-03-26 09:39:10.440 [debug] <0.368.0> Supervisor inet_gethost_native_sup started undefined at pid <0.369.0>
+2018-03-26 09:39:10.440 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.368.0>
+2018-03-26 09:39:10.587 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.371.0>
+2018-03-26 09:49:34.545 [debug] <0.339.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 09:49:34.557 [debug] <0.318.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.341.0>
+2018-03-26 09:49:34.557 [debug] <0.317.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.342.0>
+2018-03-26 09:49:34.559 [debug] <0.319.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.343.0>
+2018-03-26 09:49:34.559 [debug] <0.319.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.344.0>
+2018-03-26 09:49:35.038 [debug] <0.327.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 09:51:05.105 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 09:51:05.115 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-26 09:51:05.115 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-26 09:51:05.117 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-26 09:51:05.118 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-26 09:51:05.600 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 09:51:15.461 [debug] <0.325.0> Supervisor erly_room_sup_1 started erly_room_manage:start_link(1) at pid <0.326.0>
+2018-03-26 09:51:15.464 [debug] <0.325.0> Supervisor erly_room_sup_1 started erly_room_worker_sup:start_link(1) at pid <0.327.0>
+2018-03-26 09:51:58.924 [debug] <0.336.0> Supervisor inet_gethost_native_sup started undefined at pid <0.337.0>
+2018-03-26 09:51:58.924 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.336.0>
+2018-03-26 09:51:59.007 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.339.0>
+2018-03-26 09:56:02.467 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 09:56:02.479 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 09:56:02.479 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 09:56:02.480 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 09:56:02.480 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 09:56:02.962 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 09:56:11.829 [debug] <0.347.0> Supervisor inet_gethost_native_sup started undefined at pid <0.348.0>
+2018-03-26 09:56:11.829 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.347.0>
+2018-03-26 09:56:11.913 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.350.0>
+2018-03-26 09:57:34.232 [debug] <0.526.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.527.0>
+2018-03-26 09:57:34.233 [debug] <0.526.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.528.0>
+2018-03-26 10:01:20.923 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:01:20.934 [debug] <0.298.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.321.0>
+2018-03-26 10:01:20.934 [debug] <0.297.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.322.0>
+2018-03-26 10:01:20.935 [debug] <0.299.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.323.0>
+2018-03-26 10:01:20.935 [debug] <0.299.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.324.0>
+2018-03-26 10:01:21.416 [debug] <0.307.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:01:25.734 [debug] <0.331.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.332.0>
+2018-03-26 10:01:25.735 [debug] <0.331.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.333.0>
+2018-03-26 10:01:36.925 [debug] <0.341.0> Supervisor inet_gethost_native_sup started undefined at pid <0.342.0>
+2018-03-26 10:01:36.925 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.341.0>
+2018-03-26 10:01:37.007 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.344.0>
+2018-03-26 10:03:05.951 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:03:05.964 [debug] <0.316.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.339.0>
+2018-03-26 10:03:05.964 [debug] <0.315.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.340.0>
+2018-03-26 10:03:05.965 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.341.0>
+2018-03-26 10:03:05.965 [debug] <0.317.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.342.0>
+2018-03-26 10:03:06.445 [debug] <0.325.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:03:08.709 [debug] <0.349.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.350.0>
+2018-03-26 10:03:08.711 [debug] <0.349.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.351.0>
+2018-03-26 10:03:21.711 [debug] <0.358.0> Supervisor inet_gethost_native_sup started undefined at pid <0.359.0>
+2018-03-26 10:03:21.711 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.358.0>
+2018-03-26 10:03:21.797 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.361.0>
+2018-03-26 10:08:00.979 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:08:00.990 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 10:08:00.990 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 10:08:00.992 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 10:08:00.992 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 10:08:01.474 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:08:05.322 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 10:08:05.324 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 10:14:53.515 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:14:53.527 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 10:14:53.527 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 10:14:53.528 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 10:14:53.529 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 10:14:54.009 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:15:01.018 [debug] <0.344.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.345.0>
+2018-03-26 10:15:01.019 [debug] <0.344.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.346.0>
+2018-03-26 10:20:07.859 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:20:07.871 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 10:20:07.871 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 10:20:07.872 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 10:20:07.872 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 10:20:08.353 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:20:11.078 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 10:20:11.079 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 10:39:21.019 [debug] <0.372.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:39:21.032 [debug] <0.351.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.374.0>
+2018-03-26 10:39:21.032 [debug] <0.350.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.375.0>
+2018-03-26 10:39:21.033 [debug] <0.352.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.376.0>
+2018-03-26 10:39:21.033 [debug] <0.352.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.377.0>
+2018-03-26 10:39:21.513 [debug] <0.360.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:49:29.756 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:49:29.767 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 10:49:29.768 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 10:49:29.769 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 10:49:29.769 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 10:49:30.249 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:49:34.125 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 10:49:34.126 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 10:50:55.461 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.362.0>
+2018-03-26 10:50:55.461 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.363.0>
+2018-03-26 10:52:42.386 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:52:42.405 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 10:52:42.405 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 10:52:42.408 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 10:52:42.408 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 10:52:42.877 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:52:44.693 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 10:52:44.696 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 10:58:45.479 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 10:58:45.491 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 10:58:45.491 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 10:58:45.493 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 10:58:45.493 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 10:58:45.973 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 10:58:56.019 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 10:58:56.020 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 11:02:26.379 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 11:02:26.390 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 11:02:26.390 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 11:02:26.391 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 11:02:26.391 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 11:02:26.872 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 11:02:32.474 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 11:02:32.478 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 11:06:16.441 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.363.0>
+2018-03-26 11:06:16.441 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.364.0>
+2018-03-26 11:07:33.439 [debug] <0.384.0> Supervisor inet_gethost_native_sup started undefined at pid <0.385.0>
+2018-03-26 11:07:33.440 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.384.0>
+2018-03-26 11:07:33.534 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.387.0>
+2018-03-26 11:07:56.262 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 11:07:56.273 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-26 11:07:56.273 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-26 11:07:56.274 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-26 11:07:56.275 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-26 11:07:56.757 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 11:08:21.239 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-26 11:08:21.244 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-26 11:10:52.139 [debug] <0.338.0> Supervisor inet_gethost_native_sup started undefined at pid <0.339.0>
+2018-03-26 11:10:52.139 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.338.0>
+2018-03-26 11:10:52.218 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.341.0>
+2018-03-26 11:11:45.678 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 11:11:45.689 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-26 11:11:45.689 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-26 11:11:45.691 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-26 11:11:45.691 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-26 11:11:46.174 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 11:11:50.871 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-26 11:11:50.873 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-26 11:14:56.279 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 11:14:56.279 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 11:18:02.339 [debug] <0.356.0> Supervisor inet_gethost_native_sup started undefined at pid <0.357.0>
+2018-03-26 11:18:02.339 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.356.0>
+2018-03-26 11:18:02.423 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.359.0>
+2018-03-26 11:18:34.927 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 11:18:34.940 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 11:18:34.940 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 11:18:34.941 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 11:18:34.941 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 11:18:35.422 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 11:18:38.910 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 11:18:38.912 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 11:20:29.033 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.361.0>
+2018-03-26 11:20:29.033 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.362.0>
+2018-03-26 11:20:36.685 [debug] <0.370.0> Supervisor inet_gethost_native_sup started undefined at pid <0.371.0>
+2018-03-26 11:20:36.685 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.370.0>
+2018-03-26 11:20:36.767 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.373.0>
+2018-03-26 11:24:39.217 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 11:24:39.228 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 11:24:39.228 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 11:24:39.230 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 11:24:39.230 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 11:24:39.705 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 11:24:41.563 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 11:24:41.564 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 11:25:46.141 [debug] <0.359.0> Supervisor inet_gethost_native_sup started undefined at pid <0.360.0>
+2018-03-26 11:25:46.141 [debug] <0.51.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.359.0>
+2018-03-26 11:25:46.223 [debug] <0.51.0> Supervisor kernel_safe_sup started timer:start_link() at pid <0.362.0>
+2018-03-26 11:26:09.520 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.552.0>
+2018-03-26 11:26:09.520 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.553.0>
+2018-03-26 11:27:27.533 [debug] <0.331.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 11:27:27.545 [debug] <0.310.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.333.0>
+2018-03-26 11:27:27.545 [debug] <0.309.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.334.0>
+2018-03-26 11:27:27.547 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.335.0>
+2018-03-26 11:27:27.547 [debug] <0.311.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.336.0>
+2018-03-26 11:27:28.023 [debug] <0.319.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 11:27:30.005 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.344.0>
+2018-03-26 11:27:30.006 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.345.0>
+2018-03-26 11:28:09.855 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.373.0>
+2018-03-26 11:28:09.855 [debug] <0.343.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.374.0>
+2018-03-26 14:00:51.917 [debug] <0.315.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 14:00:51.931 [debug] <0.294.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.317.0>
+2018-03-26 14:00:51.932 [debug] <0.293.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.318.0>
+2018-03-26 14:00:51.933 [debug] <0.295.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.319.0>
+2018-03-26 14:00:51.933 [debug] <0.295.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.320.0>
+2018-03-26 14:00:52.413 [debug] <0.303.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 14:01:03.822 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 14:01:03.834 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-26 14:01:03.834 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-26 14:01:03.835 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-26 14:01:03.835 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-26 14:01:04.314 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 14:01:09.358 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-26 14:01:09.360 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-26 18:00:59.929 [debug] <0.372.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 18:00:59.944 [debug] <0.351.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.374.0>
+2018-03-26 18:00:59.944 [debug] <0.350.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.375.0>
+2018-03-26 18:00:59.946 [debug] <0.352.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.376.0>
+2018-03-26 18:00:59.946 [debug] <0.352.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.377.0>
+2018-03-26 18:01:00.422 [debug] <0.360.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 18:01:08.672 [debug] <0.384.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.385.0>
+2018-03-26 18:01:08.673 [debug] <0.384.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.386.0>
+2018-03-26 18:02:24.357 [debug] <0.384.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.402.0>
+2018-03-26 18:02:24.357 [debug] <0.384.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.403.0>
+2018-03-26 18:02:34.255 [debug] <0.313.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-26 18:02:34.268 [debug] <0.292.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.315.0>
+2018-03-26 18:02:34.269 [debug] <0.291.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.316.0>
+2018-03-26 18:02:34.270 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.317.0>
+2018-03-26 18:02:34.270 [debug] <0.293.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.318.0>
+2018-03-26 18:02:34.749 [debug] <0.301.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-26 18:02:39.891 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.326.0>
+2018-03-26 18:02:39.892 [debug] <0.325.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.327.0>
+2018-03-27 09:45:55.255 [debug] <0.370.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-27 09:45:55.271 [debug] <0.349.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.372.0>
+2018-03-27 09:45:55.271 [debug] <0.348.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.373.0>
+2018-03-27 09:45:55.273 [debug] <0.350.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.374.0>
+2018-03-27 09:45:55.273 [debug] <0.350.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.375.0>
+2018-03-27 09:45:55.736 [debug] <0.358.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-27 09:45:57.191 [debug] <0.382.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.383.0>
+2018-03-27 09:45:57.192 [debug] <0.382.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.384.0>
+2018-03-27 09:46:48.129 [debug] <0.365.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-27 09:46:48.142 [debug] <0.344.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.367.0>
+2018-03-27 09:46:48.142 [debug] <0.343.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.368.0>
+2018-03-27 09:46:48.144 [debug] <0.345.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.369.0>
+2018-03-27 09:46:48.144 [debug] <0.345.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.370.0>
+2018-03-27 09:46:48.621 [debug] <0.353.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-27 09:46:50.138 [debug] <0.377.0> Supervisor erly_room_sup_10 started erly_room_manage:start_link(10) at pid <0.378.0>
+2018-03-27 09:46:50.139 [debug] <0.377.0> Supervisor erly_room_sup_10 started erly_room_worker_sup:start_link(10) at pid <0.379.0>
+2018-03-27 14:19:39.812 [debug] <0.366.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-27 14:19:39.824 [debug] <0.345.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.368.0>
+2018-03-27 14:19:39.824 [debug] <0.344.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.369.0>
+2018-03-27 14:19:39.825 [debug] <0.346.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.370.0>
+2018-03-27 14:19:39.825 [debug] <0.346.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.371.0>
+2018-03-27 14:19:40.307 [debug] <0.354.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-27 18:40:21.538 [debug] <0.349.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-27 18:40:21.567 [debug] <0.328.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.351.0>
+2018-03-27 18:40:21.567 [debug] <0.327.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.352.0>
+2018-03-27 18:40:21.569 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.353.0>
+2018-03-27 18:40:21.569 [debug] <0.329.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.354.0>
+2018-03-27 18:40:22.028 [debug] <0.337.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event
+2018-03-28 10:05:17.691 [debug] <0.393.0>@lager_handler_watcher:119 Lager installed handler error_logger_lager_h into error_logger
+2018-03-28 10:05:17.708 [debug] <0.372.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.395.0>
+2018-03-28 10:05:17.708 [debug] <0.371.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.396.0>
+2018-03-28 10:05:17.710 [debug] <0.373.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.397.0>
+2018-03-28 10:05:17.711 [debug] <0.373.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.398.0>
+2018-03-28 10:05:18.173 [debug] <0.381.0>@lager_handler_watcher:119 Lager installed handler lager_backend_throttle into lager_event

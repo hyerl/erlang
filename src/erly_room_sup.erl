@@ -4,48 +4,43 @@
 %%%-------------------------------------------------------------------
 
 -module(erly_room_sup).
+-author("henry").
 
 -behaviour(supervisor).
 
 %% API
--export([start_link/0]).
+-export([start_link/1]).
 
 %% Supervisor callbacks
 -export([init/1]).
-
--define(SERVER, ?MODULE).
 
 %%====================================================================
 %% API functions
 %%====================================================================
 
-start_link() ->
-    supervisor:start_link({local, ?SERVER}, ?MODULE, []).
+start_link(GameID) ->
+	Name = list_to_atom(lists:concat([?MODULE, "_", GameID])),
+	supervisor:start_link({local, Name}, ?MODULE, [GameID]).
 
 %%====================================================================
 %% Supervisor callbacks
 %%====================================================================
 
 %% Child :: {Id,StartFunc,Restart,Shutdown,Type,Modules}
-init([]) ->
+init([GameID]) ->
 
-    ets:new(erly_room, [set, public, named_table]),
+	RoomManage = {erly_room_manage,
+		{erly_room_manage, start_link, [GameID]},
+		permanent, 5000, worker, [erly_room_manage]},
 
-    RoomManage = {erly_room_manage,
-                    {erly_room_manage, start_link, []},
-                    permanent, 5000, worker, [erly_room_manage]},
+	RoomSup = {erly_room_worker_sup,
+		{erly_room_worker_sup, start_link, [GameID]},
+		permanent, infinity, supervisor, [erly_room_worker_sup]},
 
-    RoomSup = {room_sup,
-                {room_sup, start_link, []},
-                permanent, 5000, supervisor, dynamic},
+	Processes = [
+		RoomManage,
+		RoomSup
+%%                Robot
+	],
 
-    Processes = [
-                RoomManage,
-                RoomSup
-                ],
-
-    {ok, { {one_for_all, 10, 5}, Processes} }.
-
-%%====================================================================
-%% Internal functions
-%%====================================================================
+	{ok, { {one_for_all, 10, 5}, Processes} }.

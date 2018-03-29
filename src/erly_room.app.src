@@ -1,16 +1,18 @@
 {application, erly_room,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {mod, { erly_room_app, []}},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
+	[{description, "An OTP application"},
+		{vsn, "0.1.0"},
+		{registered, []},
+		{mod, { erly_room_app, []}},
+		{applications,
+			[kernel,
+				stdlib,
+				gproc,
+				lager
+			]},
+		{env,[]},
+		{modules, []},
 
-  {maintainers, []},
-  {licenses, []},
-  {links, []}
- ]}.
+		{maintainers, []},
+		{licenses, []},
+		{links, []}
+	]}.
